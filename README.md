@@ -3,7 +3,7 @@
 Rounded industrial type by [GetDot](https://www.getdot.ai/), derived from
 [DINish](https://github.com/playbeing/dinish).
 
-**[Try the specimen and download DINDOT](https://www.getdot.ai/dindot/)**
+**[Try the specimen](https://www.getdot.ai/dindot/)** · **[Download the release](https://github.com/Snowboard-Software/dindot/releases/latest)**
 
 Release **0.22.0** contains four weights with matching italics, supplied as
 TrueType for desktop use and WOFF2 for self-hosted websites.
@@ -75,10 +75,12 @@ font files with this release:
 python verify_release.py --rebuild
 ```
 
-The original release checksums are retained in `SHA256SUMS`. Pinned dependencies
-are required for byte-for-byte reproducibility. A fresh build of this standalone
-package has not yet been run; the preparation checks confirm the source matches
-the release workspace and every distributed file matches the public release ZIP.
+The original release checksums are retained in `SHA256SUMS`. Every checked-in
+release file matches the ZIP served by the specimen page. A fresh Python 3.12
+build completed all sixteen fonts on macOS, but its exact-byte comparison reported
+a difference in `DINDOT-BoldItalic.ttf`. Byte-identical regeneration is therefore
+not currently guaranteed. `--rebuild` reports any differences and retains generated
+fonts for inspection; it does not replace the checked-in release files.
 
 ## License and credits
 
