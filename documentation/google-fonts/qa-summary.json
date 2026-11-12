@@ -1,0 +1,30 @@
+{
+  "summary": {
+    "SKIP": 485,
+    "PASS": 697,
+    "INFO": 100,
+    "WARN": 131,
+    "FAIL": 69
+  },
+  "failures_by_check": {
+    "googlefonts/font_names": 4,
+    "googlefonts/name/version_format": 16,
+    "googlefonts/unitsperem": 8,
+    "dotted_circle": 8,
+    "googlefonts/family_name_compliance": 8,
+    "googlefonts/name/line_breaks": 16,
+    "googlefonts/glyphsets/shape_languages": 8,
+    "googlefonts/repo/dirname_matches_nameid_1": 1
+  },
+  "failures_by_scope": {
+    "fonts/DINDOT-BoldItalic.ttf": 9,
+    "fonts": 0,
+    "fonts/DINDOT-SemiBold.ttf": 8,
+    "fonts/DINDOT-MediumItalic.ttf": 8,
+    "fonts/DINDOT-SemiBoldItalic.ttf": 8,
+    "fonts/DINDOT-Bold.ttf": 9,
+    "fonts/DINDOT-Medium.ttf": 8,
+    "fonts/DINDOT-Regular.ttf": 10,
+    "fonts/DINDOT-Italic.ttf": 9
+  }
+}

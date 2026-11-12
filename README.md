@@ -96,6 +96,14 @@ a difference in `DINDOT-BoldItalic.ttf`. Byte-identical regeneration is therefor
 not currently guaranteed. `--rebuild` reports any differences and retains generated
 fonts for inspection; it does not replace the checked-in release files.
 
+## Google Fonts readiness
+
+An initial [Google Fonts QA report](documentation/google-fonts/README.md) records
+the current onboarding gaps. All eight styles contain the required Latin Core
+codepoints, but the Google Fonts profile does not yet pass. Naming, metadata,
+mark shaping, and the source/build workflow need work or explicit review before
+the family can be onboarded.
+
 ## License and credits
 
 DINDOT is licensed under the **[SIL Open Font License 1.1](OFL.txt)**, including
