@@ -1,0 +1,428 @@
+{
+  "version": "0.922",
+  "radii": {
+    "Regular": 22,
+    "Medium": 25,
+    "SemiBold": 28,
+    "Bold": 32
+  },
+  "inner_radius_ratio": 0.55,
+  "acute_radius_ratio": 0.65,
+  "zero_dot_diameters": {
+    "Regular": 94,
+    "Medium": 106,
+    "SemiBold": 118,
+    "Bold": 130
+  },
+  "zero_bases": [
+    "zero",
+    "zero.dnom",
+    "zero.tosf"
+  ],
+  "plain_zero": {
+    "feature": "ss04",
+    "label": "Plain zero",
+    "glyphs": [
+      "zero",
+      "zero.dnom",
+      "zero.numr",
+      "zero.osf",
+      "zero.tlf",
+      "zero.tosf",
+      "zerosuperior",
+      "uni2080",
+      "uni2152",
+      "zero.dnom.data",
+      "zero.numr.data",
+      "zerosuperior.data",
+      "uni2080.data",
+      "uni2152.data"
+    ],
+    "reason": "The dotted zero is the default. ss04 gives every glyph that carries the zero dot a copy without it, with the same outline and advance, so a plain zero can be chosen without changing any width."
+  },
+  "decompose_before_zero": [
+    "percent",
+    "perthousand"
+  ],
+  "letter_profiles": {
+    "A": {
+      "radius_multiplier": 0.8,
+      "reason": "Protect the apex and open triangular counter."
+    },
+    "B": {
+      "radius_multiplier": 1,
+      "reason": "Retain the bowl tension; soften the stem joins."
+    },
+    "C": {
+      "radius_multiplier": 0.9,
+      "reason": "Keep the aperture clear and soften only the terminal joins."
+    },
+    "D": {
+      "radius_multiplier": 1,
+      "reason": "Keep the straight stem and native bowl."
+    },
+    "E": {
+      "radius_multiplier": 1,
+      "reason": "Match the three arm terminals."
+    },
+    "F": {
+      "radius_multiplier": 1,
+      "reason": "Match E without swelling the crossbar."
+    },
+    "G": {
+      "radius_multiplier": 0.9,
+      "reason": "Keep the horizontal spur and aperture distinct."
+    },
+    "H": {
+      "radius_multiplier": 1,
+      "reason": "Use the reference outer radius and a smaller inner radius."
+    },
+    "I": {
+      "radius_multiplier": 1,
+      "reason": "Match the flat stem terminal corners."
+    },
+    "J": {
+      "radius_multiplier": 0.95,
+      "reason": "Keep the hook and top terminal visually balanced."
+    },
+    "K": {
+      "radius_multiplier": 0.8,
+      "reason": "Protect the acute diagonal crotch."
+    },
+    "L": {
+      "radius_multiplier": 1,
+      "reason": "Match the cap and foot corners."
+    },
+    "M": {
+      "radius_multiplier": 0.75,
+      "reason": "Preserve the narrow internal valleys."
+    },
+    "N": {
+      "radius_multiplier": 0.85,
+      "reason": "Keep the diagonal join crisp enough to read."
+    },
+    "O": {
+      "radius_multiplier": 1,
+      "reason": "Retain the native smooth bowl; introduce no extra fillets."
+    },
+    "P": {
+      "radius_multiplier": 1,
+      "reason": "Keep the upper counter open."
+    },
+    "Q": {
+      "radius_multiplier": 0.8,
+      "reason": "Protect the bowl-tail junction."
+    },
+    "R": {
+      "radius_multiplier": 0.8,
+      "reason": "Keep space where the diagonal leg leaves the bowl."
+    },
+    "S": {
+      "radius_multiplier": 0.85,
+      "reason": "Keep the native curves and small terminal tension."
+    },
+    "T": {
+      "radius_multiplier": 1,
+      "reason": "Match both crossbar ends and stem foot."
+    },
+    "U": {
+      "radius_multiplier": 1,
+      "reason": "Keep the native smooth bottom and matching top ends."
+    },
+    "V": {
+      "radius_multiplier": 0.75,
+      "reason": "Protect the apex while softening the outer tips."
+    },
+    "W": {
+      "radius_multiplier": 0.7,
+      "reason": "Preserve both internal valleys."
+    },
+    "X": {
+      "radius_multiplier": 0.75,
+      "reason": "Protect the diagonal crossing."
+    },
+    "Y": {
+      "radius_multiplier": 0.8,
+      "reason": "Keep the fork from becoming heavy."
+    },
+    "Z": {
+      "radius_multiplier": 0.8,
+      "reason": "Balance the diagonal corners and horizontal terminals."
+    },
+    "a": {
+      "radius_multiplier": 0.9,
+      "reason": "Preserve the small counter and aperture."
+    },
+    "b": {
+      "radius_multiplier": 1,
+      "reason": "Match the ascender and bowl joins."
+    },
+    "c": {
+      "radius_multiplier": 0.9,
+      "reason": "Preserve the aperture and smooth native curves."
+    },
+    "d": {
+      "radius_multiplier": 1,
+      "reason": "Match b in the opposing construction."
+    },
+    "e": {
+      "radius_multiplier": 0.85,
+      "reason": "Keep the horizontal aperture open at text sizes."
+    },
+    "f": {
+      "radius_multiplier": 0.85,
+      "reason": "Keep the crossbar junction light."
+    },
+    "g": {
+      "radius_multiplier": 0.8,
+      "reason": "Preserve the descender aperture and bowl junction."
+    },
+    "h": {
+      "radius_multiplier": 1,
+      "reason": "Match the ascender and shoulder."
+    },
+    "i": {
+      "radius_multiplier": 1,
+      "reason": "Use a true circular dot aligned to cap height."
+    },
+    "j": {
+      "radius_multiplier": 0.9,
+      "reason": "Match the circular i dot; retain the descender hook."
+    },
+    "k": {
+      "radius_multiplier": 0.8,
+      "reason": "Protect the diagonal crotch."
+    },
+    "l": {
+      "radius_multiplier": 1,
+      "reason": "Keep a clean upright with matching terminal corners."
+    },
+    "m": {
+      "radius_multiplier": 0.85,
+      "reason": "Keep both shoulder counters clear."
+    },
+    "n": {
+      "radius_multiplier": 1,
+      "reason": "Use the reference shoulder and stem behavior."
+    },
+    "o": {
+      "radius_multiplier": 1,
+      "reason": "Retain the native smooth bowl."
+    },
+    "p": {
+      "radius_multiplier": 1,
+      "reason": "Match b without changing the descender."
+    },
+    "q": {
+      "radius_multiplier": 1,
+      "reason": "Match the b/d/p bowl profile while preserving the native tail."
+    },
+    "r": {
+      "radius_multiplier": 0.8,
+      "reason": "Keep the small shoulder terminal distinct."
+    },
+    "s": {
+      "radius_multiplier": 0.85,
+      "reason": "Preserve curve tension in the smaller form."
+    },
+    "t": {
+      "radius_multiplier": 0.9,
+      "reason": "Protect the short crossbar and foot aperture."
+    },
+    "u": {
+      "radius_multiplier": 1,
+      "reason": "Match n with native smooth lower joins."
+    },
+    "v": {
+      "radius_multiplier": 0.8,
+      "reason": "Protect the vertex and soften the upper tips."
+    },
+    "w": {
+      "radius_multiplier": 0.75,
+      "reason": "Keep both valleys open."
+    },
+    "x": {
+      "radius_multiplier": 0.8,
+      "reason": "Protect the diagonal crossing."
+    },
+    "y": {
+      "radius_multiplier": 0.8,
+      "reason": "Preserve the fork and descender."
+    },
+    "z": {
+      "radius_multiplier": 0.8,
+      "reason": "Keep the diagonal distinct from the horizontal arms."
+    },
+    "zero": {
+      "radius_multiplier": 1,
+      "reason": "Use a circular dot matching i; balance the counter and outer bowl for repeated figures."
+    },
+    "one": {
+      "radius_multiplier": 0.85,
+      "reason": "Protect the angled flag and keep the stem clear."
+    },
+    "two": {
+      "radius_multiplier": 0.9,
+      "reason": "Keep the diagonal-to-foot join clean."
+    },
+    "three": {
+      "radius_multiplier": 0.9,
+      "reason": "Preserve both small apertures."
+    },
+    "four": {
+      "radius_multiplier": 0.8,
+      "reason": "Protect the triangular opening and crossing."
+    },
+    "five": {
+      "radius_multiplier": 0.9,
+      "reason": "Keep the upper inner corner clear."
+    },
+    "six": {
+      "radius_multiplier": 1,
+      "reason": "Preserve the bowl and counter."
+    },
+    "seven": {
+      "radius_multiplier": 0.8,
+      "reason": "Protect the diagonal elbow."
+    },
+    "eight": {
+      "radius_multiplier": 0.9,
+      "reason": "Keep the waist and both counters open."
+    },
+    "nine": {
+      "radius_multiplier": 1,
+      "reason": "Match six in the opposing construction."
+    }
+  },
+  "circular_glyphs": [
+    "period",
+    "colon",
+    "semicolon",
+    "exclam",
+    "exclamdown",
+    "question",
+    "questiondown",
+    "i",
+    "j",
+    "dotaccent",
+    "dotaccentcmb",
+    "dotbelowcomb",
+    "dieresis",
+    "dieresiscmb",
+    "bullet",
+    "dottedcircle",
+    "ij",
+    "fi",
+    "divide"
+  ],
+  "glyph_profile_aliases": {
+    "a.ss02": "a",
+    "fi": "f",
+    "t_t": "t",
+    "dotlessi": "i",
+    "dotlessj": "j",
+    "Kacyr": "K",
+    "kacyr": "k",
+    "Zhecyr": "X",
+    "zhecyr": "x",
+    "Icyr": "N",
+    "icyr": "u",
+    "Pecyr": "H",
+    "pecyr": "n",
+    "Shacyr": "H",
+    "shacyr": "m",
+    "Efcyr": "O",
+    "efcyr": "o",
+    "Yucyr": "D",
+    "yucyr": "o",
+    "Yacyr": "R",
+    "yacyr": "R",
+    "Checyr": "Y",
+    "checyr": "y"
+  },
+  "zero_extra_widths": {
+    "Regular": 0,
+    "Medium": 0,
+    "SemiBold": 24,
+    "Bold": 60
+  },
+  "units_per_em": 8192,
+  "zero_full_size_dot_bases": [
+    "zero",
+    "zero.tosf"
+  ],
+  "zero_outer_extra_widths": {
+    "Regular": 0,
+    "Medium": 0,
+    "SemiBold": 16,
+    "Bold": 32
+  },
+  "italic": {
+    "angle": 15.0,
+    "origin": 264.5,
+    "upright_glyphs": [
+      "plus",
+      "minus",
+      "plusminus",
+      "multiply",
+      "divide",
+      "equal",
+      "less",
+      "greater",
+      "logicalnot",
+      "asciitilde",
+      "asciicircum",
+      "bar",
+      "brokenbar",
+      "backslash",
+      "degree",
+      "copyright",
+      "registered",
+      "trademark",
+      "uni2120",
+      "uni2117",
+      "dottedcircle",
+      ".notdef",
+      "uni207A",
+      "uni207B",
+      "uni207C",
+      "uni208A",
+      "uni208B",
+      "uni208C"
+    ],
+    "upright_families": [
+      "directional arrows",
+      "double arrows",
+      "bent arrows",
+      "return arrows",
+      "exchange arrows",
+      "circular arrows",
+      "mathematics",
+      "geometric symbols",
+      "status symbols"
+    ],
+    "balance": {
+      "Regular": {
+        "target": 1.5,
+        "cs": 0.0,
+        "contrast": 0.03
+      },
+      "Medium": {
+        "target": 1.5,
+        "cs": 0.0,
+        "contrast": 0.03
+      },
+      "SemiBold": {
+        "target": 1.5,
+        "cs": 0.0,
+        "contrast": 0.03
+      },
+      "Bold": {
+        "target": 1.5,
+        "cs": 0.0,
+        "contrast": 0.03
+      }
+    },
+    "reason": "Slanted 15 degrees about half the x-height: DIN 16's 75 degrees to the baseline. DINish Italic slants 12. DINish Italic keeps its operators and marks of the frame upright; DINDOT adds its arrows, mathematics, geometric and status symbols, the service mark and sound recording copyright beside the copyright, registered and trademark signs, and the superscript and subscript plus, minus and equals. Everything else slants, with each stroke kept at its upright thickness, its corners rounded again as circles and its dots kept round. Bowls are balanced inside the stroke correction: in every corner the outer side of a curve takes 2 - cs of the correction and the inner side cs, with 3% more stroke in the acute corners and 3% less in the obtuse ones; cs is searched per bowl until its counter's obtuse/acute corner ratio is 1.5 times the upright's (the plain shear gives about 1.85). Where tangent pieces end apart, the difference is tapered in over one stroke width."
+  }
+}

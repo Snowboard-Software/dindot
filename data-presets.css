@@ -1,0 +1,10 @@
+/* DINDOT v0.22.0: reusable UI, data, identifier and scientific presets. */
+.dindot-ui{font-family:'DINDOT',sans-serif;font-weight:400;font-size:14px;line-height:1.45}
+.dindot-data,.dindot-decimal,.dindot-science{font-family:'DINDOT',sans-serif;font-variant-numeric:lining-nums tabular-nums;font-kerning:none;font-variant-ligatures:none}
+.dindot-identifiers{font-family:'DINDOT',sans-serif;font-feature-settings:'ss03' 1;font-variant-ligatures:none;font-kerning:none;white-space:nowrap}
+.dindot-decimal{display:inline-grid;width:100%;grid-template-columns:minmax(0,1fr) max-content var(--decimal-width,.5ch) calc(var(--fraction-digits,2)*1ch) var(--suffix-width,0ch);align-items:baseline;white-space:nowrap}
+.num-prefix,.num-integer{text-align:right}.num-decimal,.num-fraction,.num-suffix{text-align:left}
+.num-suffix{min-width:max-content}.dindot-special-value{display:block;text-align:right}
+.dindot-sup,.dindot-sub{font-size:1em;line-height:1;vertical-align:baseline}
+.dindot-sup{font-feature-settings:'sups' 1,'tnum' 1}.dindot-sub{font-feature-settings:'subs' 1,'tnum' 1}
+.dindot-inferior{font-feature-settings:'sinf' 1,'tnum' 1}
