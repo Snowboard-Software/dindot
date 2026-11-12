@@ -98,6 +98,9 @@ fonts for inspection; it does not replace the checked-in release files.
 
 ## Google Fonts readiness
 
+Submitted for review in [google/fonts#11316](https://github.com/google/fonts/issues/11316).
+Catalog acceptance is pending.
+
 An initial [Google Fonts QA report](documentation/google-fonts/README.md) records
 the current onboarding gaps. All eight styles contain the required Latin Core
 codepoints, but the Google Fonts profile does not yet pass. Naming, metadata,

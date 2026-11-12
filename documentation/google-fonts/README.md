@@ -5,6 +5,8 @@ on the unchanged 0.22.0 release fonts from commit
 `caa8a1f2abf0caa36ba15a305c5f9c8e37a85cb6`, on 12 November 2026.
 It is not a claim of acceptance or production readiness.
 
+Submission and exception discussion: [google/fonts#11316](https://github.com/google/fonts/issues/11316).
+
 ## QA evidence
 
 - [Full Google Fonts profile report](fontspector-googlefonts.md)
