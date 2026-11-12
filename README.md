@@ -5,6 +5,8 @@ Rounded industrial type by [GetDot](https://www.getdot.ai/), derived from
 
 **[Try the specimen](https://www.getdot.ai/dindot/)** · **[Download the release](https://github.com/Snowboard-Software/dindot/releases/latest)**
 
+[![DINDOT specimen: industrial roots, friendly by nature](images/dindot-specimen.jpg)](https://www.getdot.ai/dindot/)
+
 Release **0.22.0** contains four weights with matching italics, supplied as
 TrueType for desktop use and WOFF2 for self-hosted websites.
 
@@ -18,6 +20,18 @@ TrueType for desktop use and WOFF2 for self-hosted websites.
 DINDOT has rounded corners, circular dots and tabular figures for data tables.
 The release covers 949 encoded characters per face. Consult the live specimen
 for character coverage and OpenType features.
+
+## A look at DINDOT
+
+![DINDOT Regular, Medium, SemiBold and Bold, with their matching italics](images/dindot-weights-and-italics.jpg)
+
+Four weights, each with a matching italic. Upright and slanted lettering share
+the same rounded details.
+
+[![Rendered railway departure board with DINDOT lettering, aligned times and platform numbers](images/dindot-departure-board.webp)](https://www.getdot.ai/dindot/#data)
+
+A rendered departure-board specimen, with all lettering set in DINDOT. Explore
+more [examples in use](https://www.getdot.ai/dindot/#data) on the specimen page.
 
 ## Install
 
