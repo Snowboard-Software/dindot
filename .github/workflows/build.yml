@@ -1,0 +1,26 @@
+name: Build and validate font sources
+on:
+  push:
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - run: python -m pip install -r requirements-qa.txt
+      - run: python verify_release.py
+      - run: python scripts/fetch_reference.py
+      - run: python sources/build.py --output-dir .cache/build-one
+      - run: python sources/build.py --output-dir .cache/build-two
+      - run: python verify_release.py --compare .cache/build-one
+      - run: >-
+          python scripts/validate_fonts.py
+          --reference .cache/reference/DINDOT-v0.22.0
+          --fonts .cache/build-one --repeat .cache/build-two
+          --report .cache/regression-checks.json

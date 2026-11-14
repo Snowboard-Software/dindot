@@ -1,0 +1,7 @@
+The generated DINDOT readiness proof in google-fonts/readiness-proof.png is
+Copyright 2026 GetDot. Permission is granted to Google Fonts reviewers and
+font editors to reproduce it in connection with reviewing or featuring
+DINDOT, with attribution to GetDot and https://www.getdot.ai/dindot/.
+
+This image notice does not change the SIL OFL 1.1 license of the font software.
+The existing README specimen images have their notice in images/README.md.

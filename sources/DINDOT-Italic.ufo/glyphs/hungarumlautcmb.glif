@@ -1,0 +1,48 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcmb" format="2">
+  <unicode hex="030B"/>
+  <anchor x="137" y="1038" name="_Anchor-1"/>
+  <anchor x="286" y="1528" name="stack_top"/>
+  <outline>
+    <contour>
+      <point x="302" y="1428" type="qcurve"/>
+      <point x="206" y="1428" type="line"/>
+      <point x="189" y="1428"/>
+      <point x="176" y="1416" type="qcurve"/>
+      <point x="-30" y="1221" type="line"/>
+      <point x="-37" y="1215"/>
+      <point x="-40" y="1198"/>
+      <point x="-34" y="1182"/>
+      <point x="-20" y="1172"/>
+      <point x="-11" y="1172" type="qcurve"/>
+      <point x="54" y="1172" type="line"/>
+      <point x="70" y="1172"/>
+      <point x="81" y="1182" type="qcurve"/>
+      <point x="320" y="1378" type="line"/>
+      <point x="328" y="1384"/>
+      <point x="332" y="1401"/>
+      <point x="326" y="1417"/>
+      <point x="312" y="1428"/>
+    </contour>
+    <contour>
+      <point x="486" y="1428" type="line"/>
+      <point x="469" y="1428"/>
+      <point x="456" y="1416" type="qcurve"/>
+      <point x="250" y="1221" type="line"/>
+      <point x="243" y="1215"/>
+      <point x="240" y="1198"/>
+      <point x="246" y="1182"/>
+      <point x="260" y="1172"/>
+      <point x="269" y="1172" type="qcurve"/>
+      <point x="334" y="1172" type="line"/>
+      <point x="350" y="1172"/>
+      <point x="361" y="1182" type="qcurve"/>
+      <point x="600" y="1378" type="line"/>
+      <point x="608" y="1384"/>
+      <point x="612" y="1401"/>
+      <point x="606" y="1417"/>
+      <point x="592" y="1428"/>
+      <point x="582" y="1428" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

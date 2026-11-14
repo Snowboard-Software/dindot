@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="sevensuperior.data" format="2">
+  <advance width="736"/>
+  <outline>
+    <contour>
+      <point x="440" y="1569" type="qcurve"/>
+      <point x="662" y="1569" type="line"/>
+      <point x="669" y="1569"/>
+      <point x="680" y="1562"/>
+      <point x="686" y="1551"/>
+      <point x="685" y="1539"/>
+      <point x="682" y="1533" type="qcurve"/>
+      <point x="274" y="926" type="line"/>
+      <point x="267" y="916"/>
+      <point x="265" y="896"/>
+      <point x="270" y="877"/>
+      <point x="283" y="861"/>
+      <point x="302" y="852"/>
+      <point x="313" y="852" type="qcurve"/>
+      <point x="423" y="852" type="line"/>
+      <point x="438" y="852"/>
+      <point x="464" y="866"/>
+      <point x="472" y="878" type="qcurve"/>
+      <point x="925" y="1560" type="line"/>
+      <point x="930" y="1568"/>
+      <point x="932" y="1577" type="qcurve"/>
+      <point x="956" y="1663" type="line"/>
+      <point x="959" y="1677"/>
+      <point x="954" y="1703"/>
+      <point x="938" y="1724"/>
+      <point x="914" y="1736"/>
+      <point x="900" y="1736" type="qcurve"/>
+      <point x="454" y="1736" type="line"/>
+      <point x="441" y="1736"/>
+      <point x="418" y="1725"/>
+      <point x="402" y="1706"/>
+      <point x="398" y="1693" type="qcurve"/>
+      <point x="385" y="1642" type="line"/>
+      <point x="381" y="1628"/>
+      <point x="387" y="1602"/>
+      <point x="403" y="1581"/>
+      <point x="426" y="1569"/>
+    </contour>
+  </outline>
+</glyph>

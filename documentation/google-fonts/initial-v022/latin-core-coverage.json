@@ -1,0 +1,58 @@
+{
+  "DINDOT-Bold.ttf": {
+    "required_codepoints": 319,
+    "missing": [],
+    "encoded_characters": 949,
+    "glyph_count": 1221,
+    "fsType": 0
+  },
+  "DINDOT-BoldItalic.ttf": {
+    "required_codepoints": 319,
+    "missing": [],
+    "encoded_characters": 949,
+    "glyph_count": 1221,
+    "fsType": 0
+  },
+  "DINDOT-Italic.ttf": {
+    "required_codepoints": 319,
+    "missing": [],
+    "encoded_characters": 949,
+    "glyph_count": 1221,
+    "fsType": 0
+  },
+  "DINDOT-Medium.ttf": {
+    "required_codepoints": 319,
+    "missing": [],
+    "encoded_characters": 949,
+    "glyph_count": 1221,
+    "fsType": 0
+  },
+  "DINDOT-MediumItalic.ttf": {
+    "required_codepoints": 319,
+    "missing": [],
+    "encoded_characters": 949,
+    "glyph_count": 1221,
+    "fsType": 0
+  },
+  "DINDOT-Regular.ttf": {
+    "required_codepoints": 319,
+    "missing": [],
+    "encoded_characters": 949,
+    "glyph_count": 1221,
+    "fsType": 0
+  },
+  "DINDOT-SemiBold.ttf": {
+    "required_codepoints": 319,
+    "missing": [],
+    "encoded_characters": 949,
+    "glyph_count": 1221,
+    "fsType": 0
+  },
+  "DINDOT-SemiBoldItalic.ttf": {
+    "required_codepoints": 319,
+    "missing": [],
+    "encoded_characters": 949,
+    "glyph_count": 1221,
+    "fsType": 0
+  }
+}

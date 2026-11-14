@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04DE" format="2">
+  <advance width="1288"/>
+  <unicode hex="04DE"/>
+  <note>
+Canonical composition of Zecyr and dieresiscmb.
+</note>
+  <anchor x="688" y="-188" name="bottom"/>
+  <anchor x="688" y="2084" name="top"/>
+  <outline>
+    <component base="Zecyr"/>
+    <component base="dieresiscmb" xOffset="545.0567010309278" yOffset="502"/>
+  </outline>
+</glyph>

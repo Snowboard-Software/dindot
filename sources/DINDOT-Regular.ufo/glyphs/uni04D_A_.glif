@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04DA" format="2">
+  <advance width="1259"/>
+  <unicode hex="04DA"/>
+  <note>
+Canonical composition of Schwacyrillic and dieresiscmb.
+</note>
+  <anchor x="631" y="-188" name="bottom"/>
+  <anchor x="631" y="2006" name="top"/>
+  <outline>
+    <component base="Schwacyrillic"/>
+    <component base="dieresiscmb" xOffset="638" yOffset="508"/>
+  </outline>
+</glyph>

@@ -8,3 +8,10 @@ masters/
 /data/*.json
 /build-report.json
 /glyph-catalog.json
+/.cache/
+sources/procedural/audit/*.json
+sources/procedural/text/*.json
+sources/procedural/data/*.json
+sources/procedural/fonts/
+sources/procedural/build-report.json
+sources/procedural/glyph-catalog.json

@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04D3" format="2">
+  <advance width="1059"/>
+  <unicode hex="04D3"/>
+  <note>
+Canonical composition of acyr and dieresiscmb.
+</note>
+  <anchor x="587" y="-179" name="bottom"/>
+  <anchor x="587" y="1722" name="top"/>
+  <outline>
+    <component base="acyr"/>
+    <component base="dieresiscmb" xOffset="547" yOffset="140"/>
+  </outline>
+</glyph>

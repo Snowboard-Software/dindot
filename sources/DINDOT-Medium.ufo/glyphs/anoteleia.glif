@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="anoteleia" format="2">
+  <advance width="410"/>
+  <unicode hex="0387"/>
+  <outline>
+    <contour>
+      <point x="326" y="938" type="qcurve"/>
+      <point x="326" y="958"/>
+      <point x="320" y="977" type="qcurve"/>
+      <point x="314" y="995"/>
+      <point x="303" y="1010" type="qcurve"/>
+      <point x="291" y="1025"/>
+      <point x="276" y="1037" type="qcurve"/>
+      <point x="261" y="1048"/>
+      <point x="243" y="1054" type="qcurve"/>
+      <point x="224" y="1060"/>
+      <point x="204" y="1060" type="qcurve"/>
+      <point x="184" y="1060"/>
+      <point x="166" y="1054" type="qcurve"/>
+      <point x="147" y="1048"/>
+      <point x="132" y="1037" type="qcurve"/>
+      <point x="117" y="1025"/>
+      <point x="106" y="1010" type="qcurve"/>
+      <point x="94" y="995"/>
+      <point x="88" y="977" type="qcurve"/>
+      <point x="82" y="958"/>
+      <point x="82" y="938" type="qcurve"/>
+      <point x="82" y="918"/>
+      <point x="88" y="900" type="qcurve"/>
+      <point x="94" y="881"/>
+      <point x="106" y="866" type="qcurve"/>
+      <point x="117" y="851"/>
+      <point x="132" y="840" type="qcurve"/>
+      <point x="147" y="828"/>
+      <point x="166" y="822" type="qcurve"/>
+      <point x="184" y="816"/>
+      <point x="204" y="816" type="qcurve"/>
+      <point x="224" y="816"/>
+      <point x="243" y="822" type="qcurve"/>
+      <point x="261" y="828"/>
+      <point x="276" y="840" type="qcurve"/>
+      <point x="291" y="851"/>
+      <point x="303" y="866" type="qcurve"/>
+      <point x="314" y="881"/>
+      <point x="320" y="900" type="qcurve"/>
+      <point x="326" y="918"/>
+    </contour>
+  </outline>
+</glyph>
