@@ -1,0 +1,6 @@
+Rick Radewagen / GetDot <rick@getdot.ai>
+
+AI assistance was used under Rick Radewagen's direction for development
+tooling, source conversion, metadata, new glyph construction, QA,
+documentation, repository packaging and submission preparation. Original
+DINish and D-DIN outlines remain credited to their upstream authors.

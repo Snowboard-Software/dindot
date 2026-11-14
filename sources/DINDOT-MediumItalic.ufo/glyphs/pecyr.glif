@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="pecyr" format="2">
+  <advance width="1063"/>
+  <unicode hex="043F"/>
+  <anchor x="530" y="-172" name="bottom"/>
+  <anchor x="530" y="1178" name="top"/>
+  <outline>
+    <contour>
+      <point x="315" y="1046" type="line"/>
+      <point x="303" y="1046"/>
+      <point x="281" y="1036"/>
+      <point x="266" y="1018"/>
+      <point x="263" y="1006" type="qcurve"/>
+      <point x="11" y="68" type="line"/>
+      <point x="8" y="55"/>
+      <point x="13" y="31"/>
+      <point x="28" y="12"/>
+      <point x="50" y="0"/>
+      <point x="63" y="0" type="qcurve"/>
+      <point x="143" y="0" type="line"/>
+      <point x="155" y="0"/>
+      <point x="176" y="10"/>
+      <point x="192" y="28"/>
+      <point x="195" y="40" type="qcurve"/>
+      <point x="415" y="863" type="line"/>
+      <point x="417" y="871"/>
+      <point x="430" y="881"/>
+      <point x="439" y="881" type="qcurve"/>
+      <point x="799" y="881" type="line"/>
+      <point x="807" y="881"/>
+      <point x="820" y="872"/>
+      <point x="825" y="858"/>
+      <point x="823" y="850" type="qcurve"/>
+      <point x="613" y="67" type="line"/>
+      <point x="610" y="55"/>
+      <point x="615" y="31"/>
+      <point x="630" y="11"/>
+      <point x="652" y="0"/>
+      <point x="665" y="0" type="qcurve"/>
+      <point x="745" y="0" type="line"/>
+      <point x="757" y="0"/>
+      <point x="778" y="10"/>
+      <point x="794" y="28"/>
+      <point x="797" y="40" type="qcurve"/>
+      <point x="1048" y="978" type="line"/>
+      <point x="1052" y="991"/>
+      <point x="1046" y="1015"/>
+      <point x="1032" y="1035"/>
+      <point x="1010" y="1046"/>
+      <point x="996" y="1046" type="qcurve"/>
+    </contour>
+  </outline>
+</glyph>

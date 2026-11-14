@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="acutecomb" format="2">
+  <unicode hex="0301"/>
+  <anchor x="0" y="1046" name="_Anchor-1"/>
+  <anchor x="30" y="1544" name="stack_top"/>
+  <outline>
+    <contour>
+      <point x="38" y="1439" type="qcurve"/>
+      <point x="28" y="1434"/>
+      <point x="21" y="1425" type="qcurve"/>
+      <point x="-132" y="1235" type="line"/>
+      <point x="-138" y="1227"/>
+      <point x="-139" y="1218" type="qcurve"/>
+      <point x="-140" y="1209"/>
+      <point x="-136" y="1201" type="qcurve"/>
+      <point x="-132" y="1192"/>
+      <point x="-124" y="1187" type="qcurve"/>
+      <point x="-117" y="1182"/>
+      <point x="-107" y="1182" type="qcurve"/>
+      <point x="-35" y="1182" type="line"/>
+      <point x="-14" y="1182"/>
+      <point x="0" y="1197" type="qcurve"/>
+      <point x="189" y="1389" type="line"/>
+      <point x="197" y="1397"/>
+      <point x="198" y="1406" type="qcurve"/>
+      <point x="200" y="1415"/>
+      <point x="196" y="1424" type="qcurve"/>
+      <point x="192" y="1433"/>
+      <point x="185" y="1439" type="qcurve"/>
+      <point x="177" y="1444"/>
+      <point x="166" y="1444" type="qcurve"/>
+      <point x="60" y="1444" type="line"/>
+      <point x="48" y="1444"/>
+    </contour>
+  </outline>
+</glyph>

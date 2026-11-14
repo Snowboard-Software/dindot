@@ -1,70 +1,118 @@
-# Google Fonts readiness review
+# Google Fonts engineering and review status
 
-DINDOT is being proposed for Google Fonts. This folder records an initial QA run
-on the unchanged 0.22.0 release fonts from commit
-`caa8a1f2abf0caa36ba15a305c5f9c8e37a85cb6`, on 12 November 2026.
-It is not a claim of acceptance or production readiness.
+The unreleased **1.000 candidate** has editable UFO sources and a standard
+fontmake build. The published v0.22.0 ZIP and live specimen are unchanged.
+Submission: [google/fonts#11316](https://github.com/google/fonts/issues/11316).
+Google Fonts acceptance and naming approval remain pending.
 
-Submission and exception discussion: [google/fonts#11316](https://github.com/google/fonts/issues/11316).
+## Result on 14 November 2026
 
-## QA evidence
+The Google Fonts Fontspector profile reports **762 PASS, 93 WARN, 8 FAIL,
+477 SKIP and 94 INFO**, with **no ERROR or FATAL** results. The command exits 1.
+All eight failures are the same family-name policy check: `DINDOT` contains
+an abbreviation. The menu name remains DINDOT; a naming exception is requested.
+The new Cyrillic designs still need native-reader and Google Fonts design review.
 
-- [Full Google Fonts profile report](fontspector-googlefonts.md)
-- [Machine-readable result counts](qa-summary.json)
-- [Latin Core codepoint coverage for all eight styles](latin-core-coverage.json)
+Compared with the [original v0.22.0 report](initial-v022/README.md), every other
+failing check category has been resolved. Warnings remain visible in the full
+report and are not waived or represented as final production approval.
 
-The official `fontspector-v1.9.1` release asset for Apple Silicon was used; the
-binary and generated report identify the checker as **1.9.0**.
+| Original failure | Candidate change |
+| --- | --- |
+| Editable font sources/build | Eight maintained UFO 3 sources; fontmake and ttfautohint build directly from them. |
+| RIBBI name records | Remove redundant typographic family/subfamily records for Regular, Italic, Bold and Bold Italic. |
+| Version below 1.000 | Candidate internal version is 1.000. It is not a released version tag. |
+| Multiline copyright | Single-line notices retain upstream attribution. |
+| 8192 UPM | 2048 UPM, with all original outlines and advances compared geometrically. |
+| Dotted-circle horn attachment | Add the missing horn anchor/positioning. |
+| Language shaping | Complete reported mandatory Cyrillic orthographies, add missing top/bottom attachments and mark stacking, and fix soft dots before accents. |
+| Repository directory mismatch | Preferred upstream `sources/`, `fonts/ttf/` and `fonts/webfonts/` layout; QA stages a downstream `dindot/` directory as expected by that check. |
+| DINDOT family-name policy | **Pending Google Fonts review.** Upstream RFN context is documented separately. |
+
+## Evidence
+
+- [Full current Fontspector report](fontspector-googlefonts.md)
+- [Result and warning counts](qa-summary.json)
+- [Latin Core coverage](latin-core-coverage.json)
+- [Outline, shaping and repeat-build checks](regression-checks.json)
+- [One-time source migration record](source-migration.json)
+- [Upstream notices and reserved-name review](upstream-licenses/README.md)
+- [Draft catalog description](DESCRIPTION.en_us.html), subject to editorial approval
+
+![Released and candidate DINDOT fonts, new characters and all eight styles](readiness-proof.png)
+
+The proof uses HarfBuzz shaping and FreeType rasterization. It is generated
+by `scripts/render_proof.py`; its image notice is in `../image-license.txt`.
+
+## Regression checks
+
+All eight faces retain the original **949** encoded characters and add **38**,
+for **987** per face. The required Latin Core list has **324 glyph entries**:
+319 encoded entries plus the unencoded forms. All are covered, allowing the
+published nice-name/Adobe-name aliases documented in the validator.
+
+The regression check compares **all 1,221 original glyphs per face** (9,768
+comparisons). The largest sampled outline distance is **0.7072 or less in
+2048-unit coordinates**, and the largest advance difference is **0.5 units**.
+These are within the smaller grid's rounding tolerance. Outline comparison
+samples Bezier segments at 16 intervals and uses symmetric Hausdorff distance;
+it is an automated geometry comparison, not a proof of pixel-identical rendering.
+Hinting has been rebuilt and low-resolution rasterization may differ.
+
+**126 shaping cases per face** (1,008 total) compare substitution behavior and
+positioning, including numeric features and Catalan, Polish, Dutch, Romanian
+and Bulgarian feature inheritance. Corrected accent sequences have separate
+attachment and advance-preservation checks. TTF/WOFF2 semantic tables match.
+Two isolated builds produce **byte-identical output for all 16 font files**.
+The original 0.22-era procedural build did not guarantee exact-byte regeneration;
+this new result applies to the UFO candidate, not retroactively to that release.
+
+## Reproduce
+
+Use Python 3.12, install `requirements-qa.txt`, and run:
 
 ```sh
-fontspector -p googlefonts -J 4 --timeout 10 \
-  --json fontspector-googlefonts.json \
-  --ghmarkdown fontspector-googlefonts.md fonts/*.ttf
+python verify_release.py
+python scripts/fetch_reference.py
+python sources/build.py --output-dir .cache/build-one
+python sources/build.py --output-dir .cache/build-two
+python scripts/validate_fonts.py \
+  --reference .cache/reference/DINDOT-v0.22.0 \
+  --fonts .cache/build-one --repeat .cache/build-two \
+  --report .cache/regression-checks.json
+python scripts/render_proof.py \
+  --reference .cache/reference/DINDOT-v0.22.0 \
+  --fonts .cache/build-one --output .cache/readiness-proof.png
 ```
 
-The checker reported 697 PASS, 131 WARN, 69 FAIL, 485 SKIP and 100 INFO
-subresults. There were no FATAL or ERROR results. The command exited 1 because
-of the failures. These are individual reported results, not 69 separate design
-problems: they repeat across styles and name-table platforms.
+For the full Google Fonts profile, install official Fontspector and run:
 
-The 69 failing results belong to eight check IDs:
+```sh
+python scripts/qa_googlefonts.py --fontspector /path/to/fontspector
+```
 
-| Check | Failing results | Work or review needed |
-| --- | ---: | --- |
-| `googlefonts/family_name_compliance` | 8 | Resolve the all-caps/abbreviation naming rule with Google Fonts. |
-| `googlefonts/font_names` | 4 | Normalize the RIBBI typographic name-table records for Google Fonts. |
-| `googlefonts/name/version_format` | 16 | Google Fonts requires an internal version of at least 1.000; current release files report 0.922. |
-| `googlefonts/name/line_breaks` | 16 | Put the copyright notice on one line while retaining all upstream credit. |
-| `googlefonts/unitsperem` | 8 | Review the 8192 UPM precision or rescale with outline and metric comparison. |
-| `dotted_circle` | 8 | Attach `horncomb` to the dotted-circle glyph. |
-| `googlefonts/glyphsets/shape_languages` | 8 | Review the inferred script/language coverage, missing orthography and mark shaping. |
-| `googlefonts/repo/dirname_matches_nameid_1` | 1 | This check expects the Google Fonts family-directory layout; it was run in the upstream `fonts/` folder. |
+The official `fontspector-v1.9.1` Apple Silicon release asset was used for the
+recorded run. Its executable and report identify it as **1.9.0**, commit
+`990bb930`. The check stages TTFs and OFL.txt under a downstream `dindot/`
+directory; the maintained upstream layout remains `fonts/ttf/`.
 
-All eight faces contain all **319 encoded codepoints** in the current
-[GF Latin Core NAM file](https://github.com/googlefonts/glyphsets/blob/main/data/results/nam/GF_Latin_Core.nam).
-This codepoint comparison is separate from unencoded glyph, OpenType-feature
-and language-shaping requirements. It does not override the shaping failures.
+Remaining warnings include optional language/orthography coverage, legacy
+unreachable alternates, the intentionally dotted zero's extra contours,
+soft-hyphen policy, a mathematical-width exception, small rounding/outline
+observations, a static STAT-table advisory and downstream subset metadata.
+They need review during onboarding. No complete downstream METADATA.pb or
+Google Fonts web subsets are claimed by this upstream candidate.
 
-## Source and build workflow
+## Sources, authorship and AI assistance
 
-The design is maintained as procedural Python, settings and licensed DINish
-inputs. There is currently no UFO/Glyphs source tree or fontmake build pipeline.
-The [Google Fonts onboarding guide](https://googlefonts.github.io/gf-guide/onboarding.html)
-requires those standard sources and builds, or an explicitly approved exception.
-The preferred upstream directory structure also remains to be adopted.
+See [the maintained source documentation](../../sources/README.md). The UFOs
+were initially exported from the licensed DINDOT release, not recovered as
+original upstream drawing masters. The historical procedural sources and
+DINish inputs are retained in `sources/procedural/`; ordinary builds do not
+extract sources from binaries or invoke that generator.
 
-A clean Python 3.12 build previously completed all sixteen TTF/WOFF2 outputs,
-but exact-byte comparison first differed at `DINDOT-BoldItalic.ttf`. This is
-already documented in the repository README. This QA run did not rebuild,
-patch or replace any release fonts.
-
-## Authorship and AI assistance
-
-DINDOT is a DINish derivative with GetDot modifications. The upstream credits
-and SIL OFL 1.1 notices remain in `AUTHORS.txt`, `OFL.txt` and the font metadata.
-AI assistance has been used for development tooling, repository packaging,
-documentation, QA and submission preparation under Rick Radewagen's direction.
-This does not replace the attribution of the original DINish and D-DIN work.
-
-The specimen images are separately copyrighted GetDot assets, as described in
-`images/README.md`; they are not part of the OFL font-software license.
+DINDOT is a derivative of DINish, with the original DINish, Altinn-DIN and
+D-DIN lineage credited in AUTHORS.txt and the upstream review. AI assistance
+has been used under Rick Radewagen's direction for tooling, source conversion,
+metadata, new glyph construction, QA, documentation and submission preparation.
+The original upstream outlines are not claimed as our sole original work.

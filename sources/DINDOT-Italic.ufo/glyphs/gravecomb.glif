@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="gravecomb" format="2">
+  <unicode hex="0300"/>
+  <anchor x="137" y="1038" name="_Anchor-1"/>
+  <anchor x="102" y="1528" name="stack_top"/>
+  <outline>
+    <contour>
+      <point x="84" y="1428" type="qcurve"/>
+      <point x="9" y="1428" type="line"/>
+      <point x="0" y="1428"/>
+      <point x="-13" y="1420"/>
+      <point x="-20" y="1406"/>
+      <point x="-19" y="1391"/>
+      <point x="-14" y="1383" type="qcurve"/>
+      <point x="119" y="1190" type="line"/>
+      <point x="125" y="1182"/>
+      <point x="144" y="1172"/>
+      <point x="154" y="1172" type="qcurve"/>
+      <point x="196" y="1172" type="line"/>
+      <point x="204" y="1172"/>
+      <point x="216" y="1180"/>
+      <point x="224" y="1192"/>
+      <point x="225" y="1206"/>
+      <point x="221" y="1213" type="qcurve"/>
+      <point x="121" y="1406" type="line"/>
+      <point x="115" y="1416"/>
+      <point x="95" y="1428"/>
+    </contour>
+  </outline>
+</glyph>

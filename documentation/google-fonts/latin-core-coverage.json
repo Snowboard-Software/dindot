@@ -1,58 +1,58 @@
 {
   "DINDOT-Bold.ttf": {
-    "required_codepoints": 319,
+    "encoded_characters": 987,
+    "required_encoded_latin_core": 319,
+    "required_latin_core_glyphs": 324,
     "missing": [],
-    "encoded_characters": 949,
-    "glyph_count": 1221,
-    "fsType": 0
+    "validation": "scripts/validate_fonts.py; regression-checks.json"
   },
   "DINDOT-BoldItalic.ttf": {
-    "required_codepoints": 319,
+    "encoded_characters": 987,
+    "required_encoded_latin_core": 319,
+    "required_latin_core_glyphs": 324,
     "missing": [],
-    "encoded_characters": 949,
-    "glyph_count": 1221,
-    "fsType": 0
+    "validation": "scripts/validate_fonts.py; regression-checks.json"
   },
   "DINDOT-Italic.ttf": {
-    "required_codepoints": 319,
+    "encoded_characters": 987,
+    "required_encoded_latin_core": 319,
+    "required_latin_core_glyphs": 324,
     "missing": [],
-    "encoded_characters": 949,
-    "glyph_count": 1221,
-    "fsType": 0
+    "validation": "scripts/validate_fonts.py; regression-checks.json"
   },
   "DINDOT-Medium.ttf": {
-    "required_codepoints": 319,
+    "encoded_characters": 987,
+    "required_encoded_latin_core": 319,
+    "required_latin_core_glyphs": 324,
     "missing": [],
-    "encoded_characters": 949,
-    "glyph_count": 1221,
-    "fsType": 0
+    "validation": "scripts/validate_fonts.py; regression-checks.json"
   },
   "DINDOT-MediumItalic.ttf": {
-    "required_codepoints": 319,
+    "encoded_characters": 987,
+    "required_encoded_latin_core": 319,
+    "required_latin_core_glyphs": 324,
     "missing": [],
-    "encoded_characters": 949,
-    "glyph_count": 1221,
-    "fsType": 0
+    "validation": "scripts/validate_fonts.py; regression-checks.json"
   },
   "DINDOT-Regular.ttf": {
-    "required_codepoints": 319,
+    "encoded_characters": 987,
+    "required_encoded_latin_core": 319,
+    "required_latin_core_glyphs": 324,
     "missing": [],
-    "encoded_characters": 949,
-    "glyph_count": 1221,
-    "fsType": 0
+    "validation": "scripts/validate_fonts.py; regression-checks.json"
   },
   "DINDOT-SemiBold.ttf": {
-    "required_codepoints": 319,
+    "encoded_characters": 987,
+    "required_encoded_latin_core": 319,
+    "required_latin_core_glyphs": 324,
     "missing": [],
-    "encoded_characters": 949,
-    "glyph_count": 1221,
-    "fsType": 0
+    "validation": "scripts/validate_fonts.py; regression-checks.json"
   },
   "DINDOT-SemiBoldItalic.ttf": {
-    "required_codepoints": 319,
+    "encoded_characters": 987,
+    "required_encoded_latin_core": 319,
+    "required_latin_core_glyphs": 324,
     "missing": [],
-    "encoded_characters": 949,
-    "glyph_count": 1221,
-    "fsType": 0
+    "validation": "scripts/validate_fonts.py; regression-checks.json"
   }
 }

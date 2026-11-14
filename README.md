@@ -7,7 +7,7 @@ Rounded industrial type by [GetDot](https://www.getdot.ai/), derived from
 
 [![DINDOT specimen: industrial roots, friendly by nature](images/dindot-specimen.jpg)](https://www.getdot.ai/dindot/)
 
-Release **0.22.0** contains four weights with matching italics, supplied as
+The published release **0.22.0** contains four weights with matching italics, supplied as
 TrueType for desktop use and WOFF2 for self-hosted websites.
 
 | Weight | Upright | Italic |
@@ -33,9 +33,15 @@ the same rounded details.
 A rendered departure-board specimen, with all lettering set in DINDOT. Explore
 more [examples in use](https://www.getdot.ai/dindot/#data) on the specimen page.
 
+**Development status:** this branch contains an unreleased **1.000 Google Fonts
+candidate**, with editable UFO sources and 987 encoded characters per face.
+The existing v0.22.0 download and live specimen are unchanged. See the
+[engineering and QA record](documentation/google-fonts/README.md).
+
 ## Install
 
-For desktop use, install the `.ttf` files in [`fonts/`](fonts/).
+For the development candidate, install the `.ttf` files in
+[`fonts/ttf/`](fonts/ttf/). Use the release download above for the published version.
 
 For a website, copy `fonts/` and `dindot.css` together and load the stylesheet:
 
@@ -54,58 +60,43 @@ an appropriate table or grid layout.
 
 ## Editable sources and build
 
-The sources used to draw DINDOT are the Python modules in this repository,
-[`settings.json`](settings.json), and the licensed DINish inputs in
-[`source/`](source/). The build constructs and modifies outlines from those
-inputs. There is no separate Glyphs or UFO source file.
+The eight [`sources/DINDOT-*.ufo`](sources/) files are the maintained design
+sources. They include editable outlines, components, metrics, anchors and
+OpenType feature source. The original generator and licensed DINish inputs
+are preserved under [`sources/procedural/`](sources/procedural/).
 
-Use Python 3.12 and the pinned dependencies in `requirements.txt`:
+Use Python 3.12 and the locked build dependencies:
 
 ```sh
 python3.12 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements.txt
-python -c "from pathlib import Path; [Path(p).mkdir(exist_ok=True) for p in ('audit', 'text', 'data')]"
-python build.py
+sh sources/build.sh
 python verify_release.py
 ```
 
-`build.py` creates the upright masters, builds the final proportional faces,
-draws their italics, hints and exports TTF/WOFF2 files, and generates the glyph
-catalogue. Intermediate masters are build outputs, not another font family
-to install. `build_text.py` and `italic.py` contain the main drawing changes;
-the `source_*.py` modules add script coverage.
+The standard fontmake build produces eight hinted TTFs in `fonts/ttf` and eight
+WOFF2s in `fonts/webfonts`. The UFO sources are used directly; no binary source
+extraction or procedural regeneration is performed during normal builds.
+See [`sources/README.md`](sources/README.md) for migration provenance and editing
+instructions. The original v0.22.0 release, its sources and checksums remain
+available at its Git tag and release page.
 
-To check the published files without installing build dependencies:
-
-```sh
-python3 verify_release.py
-```
-
-To build in a separate temporary directory and compare all sixteen resulting
-font files with this release:
-
-```sh
-python verify_release.py --rebuild
-```
-
-The original release checksums are retained in `SHA256SUMS`. Every checked-in
-release file matches the ZIP served by the specimen page. A fresh Python 3.12
-build completed all sixteen fonts on macOS, but its exact-byte comparison reported
-a difference in `DINDOT-BoldItalic.ttf`. Byte-identical regeneration is therefore
-not currently guaranteed. `--rebuild` reports any differences and retains generated
-fonts for inspection; it does not replace the checked-in release files.
+Regression checks compare all original glyph outlines and advances, required
+Latin Core glyphs, OpenType feature behavior and corrected mark sequences.
+The workflow also performs two clean builds and compares every output byte.
+See [validation instructions and results](documentation/google-fonts/README.md).
 
 ## Google Fonts readiness
 
 Submitted for review in [google/fonts#11316](https://github.com/google/fonts/issues/11316).
-Catalog acceptance is pending.
+Catalog acceptance is pending. The definitive menu name remains **DINDOT**;
+Google Fonts naming-policy approval is still required.
 
-An initial [Google Fonts QA report](documentation/google-fonts/README.md) records
-the current onboarding gaps. All eight styles contain the required Latin Core
-codepoints, but the Google Fonts profile does not yet pass. Naming, metadata,
-mark shaping, and the source/build workflow need work or explicit review before
-the family can be onboarded.
+The [engineering and QA record](documentation/google-fonts/README.md) includes
+the editable-source migration, current report, regression results and visual
+proof. New Cyrillic designs are candidates for native-reader design review.
+Automated QA does not establish final design approval or catalog acceptance.
 
 ## License and credits
 
@@ -115,7 +106,7 @@ commercial use, embedding, modification and redistribution under that license.
 Copyright 2026 GetDot for the DINDOT modifications. Copyright 2021–2024 The DINish
 Project Authors for the upstream font. DINish derives from Altinn-DIN and D-DIN;
 the original D-DIN design is by Charles Nix / Monotype, commissioned by Datto.
-See [`AUTHORS.txt`](AUTHORS.txt) and [`source/README.md`](source/README.md) for credits
+See [`AUTHORS.txt`](AUTHORS.txt) and [`sources/procedural/source/README.md`](sources/procedural/source/README.md) for credits
 and the exact upstream inputs. These acknowledgements do not imply endorsement.
 
 Please retain the license and contributor notices when redistributing the fonts.

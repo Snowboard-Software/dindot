@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04F3" format="2">
+  <advance width="907"/>
+  <unicode hex="04F3"/>
+  <note>
+Canonical composition of ucyr and hungarumlautcmb.
+</note>
+  <anchor x="507" y="-484" name="bottom"/>
+  <anchor x="507" y="1694" name="top"/>
+  <outline>
+    <component base="ucyr"/>
+    <component base="hungarumlautcmb" xOffset="480" yOffset="134"/>
+  </outline>
+</glyph>

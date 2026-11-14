@@ -1,0 +1,4 @@
+fontmake==3.12.2
+ufoLib2==0.19.1
+fonttools[woff]==4.68.0
+ttfautohint-py==0.6.1

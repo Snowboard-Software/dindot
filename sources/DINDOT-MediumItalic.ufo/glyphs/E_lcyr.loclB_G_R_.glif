@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="Elcyr.loclBGR" format="2">
+  <advance width="1214"/>
+  <outline>
+    <contour>
+      <point x="853" y="1414" type="qcurve"/>
+      <point x="761" y="1414" type="line"/>
+      <point x="747" y="1414"/>
+      <point x="722" y="1401"/>
+      <point x="715" y="1389" type="qcurve"/>
+      <point x="-113" y="82" type="line"/>
+      <point x="-120" y="72"/>
+      <point x="-123" y="49"/>
+      <point x="-116" y="27"/>
+      <point x="-102" y="10"/>
+      <point x="-81" y="0"/>
+      <point x="-68" y="0" type="qcurve"/>
+      <point x="35" y="0" type="line"/>
+      <point x="49" y="0"/>
+      <point x="74" y="14"/>
+      <point x="82" y="26" type="qcurve"/>
+      <point x="733" y="1094" type="line"/>
+      <point x="735" y="1098"/>
+      <point x="743" y="1101"/>
+      <point x="752" y="1099"/>
+      <point x="757" y="1092"/>
+      <point x="758" y="1088" type="qcurve"/>
+      <point x="837" y="49" type="line"/>
+      <point x="838" y="35"/>
+      <point x="853" y="13"/>
+      <point x="876" y="0"/>
+      <point x="890" y="0" type="qcurve"/>
+      <point x="981" y="0" type="line"/>
+      <point x="992" y="0"/>
+      <point x="1013" y="10"/>
+      <point x="1028" y="26"/>
+      <point x="1035" y="47"/>
+      <point x="1034" y="59" type="qcurve"/>
+      <point x="906" y="1366" type="line"/>
+      <point x="904" y="1380"/>
+      <point x="890" y="1401"/>
+      <point x="866" y="1414"/>
+    </contour>
+  </outline>
+</glyph>

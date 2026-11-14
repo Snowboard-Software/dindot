@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni01FE" format="2">
+  <advance width="1255"/>
+  <unicode hex="01FE"/>
+  <note>
+Canonical composition of Oslash and acutecomb.
+</note>
+  <anchor x="676" y="-212" name="bottom"/>
+  <anchor x="676" y="1944" name="top"/>
+  <outline>
+    <component base="Oslash"/>
+    <component base="acutecomb" xOffset="727" yOffset="368"/>
+  </outline>
+</glyph>

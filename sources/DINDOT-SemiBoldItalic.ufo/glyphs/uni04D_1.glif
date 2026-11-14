@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04D1" format="2">
+  <advance width="1043"/>
+  <unicode hex="04D1"/>
+  <note>
+Canonical composition of acyr and brevecmb.
+</note>
+  <anchor x="570" y="-181" name="bottom"/>
+  <anchor x="570" y="1762" name="top"/>
+  <outline>
+    <component base="acyr"/>
+    <component base="brevecmb" xOffset="543" yOffset="156"/>
+  </outline>
+</glyph>

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04D5" format="2">
+  <advance width="1669"/>
+  <unicode hex="04D5"/>
+  <note>
+Same letterform as ae; separate Cyrillic encoding.
+</note>
+  <anchor x="812" y="-184" name="bottom"/>
+  <anchor x="812" y="1210" name="top"/>
+  <outline>
+    <component base="ae"/>
+  </outline>
+</glyph>

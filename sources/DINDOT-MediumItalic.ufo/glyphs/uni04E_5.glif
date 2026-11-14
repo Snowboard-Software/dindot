@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04E5" format="2">
+  <advance width="1123"/>
+  <unicode hex="04E5"/>
+  <note>
+Canonical composition of icyr and dieresiscmb.
+</note>
+  <anchor x="560" y="-172" name="bottom"/>
+  <anchor x="560" y="1662" name="top"/>
+  <outline>
+    <component base="icyr"/>
+    <component base="dieresiscmb" xOffset="588" yOffset="136"/>
+  </outline>
+</glyph>

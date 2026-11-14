@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04EC" format="2">
+  <advance width="1240"/>
+  <unicode hex="04EC"/>
+  <note>
+Canonical composition of Ereversedcyr and dieresiscmb.
+</note>
+  <anchor x="618" y="-188" name="bottom"/>
+  <anchor x="618" y="2048" name="top"/>
+  <outline>
+    <component base="Ereversedcyr"/>
+    <component base="dieresiscmb" xOffset="610" yOffset="494"/>
+  </outline>
+</glyph>

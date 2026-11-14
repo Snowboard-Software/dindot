@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1D62.dotless" format="2">
+  <advance width="313"/>
+  <note>
+Soft-dotted form without its tittle, selected before above marks.
+</note>
+  <anchor x="156" y="-502" name="bottom"/>
+  <anchor x="156" y="693" name="top"/>
+  <outline>
+    <contour>
+      <point x="100" y="337" type="qcurve"/>
+      <point x="93" y="334"/>
+      <point x="87" y="328" type="qcurve"/>
+      <point x="81" y="322"/>
+      <point x="77" y="315" type="qcurve"/>
+      <point x="74" y="307"/>
+      <point x="74" y="298" type="qcurve"/>
+      <point x="74" y="-288" type="line"/>
+      <point x="74" y="-296"/>
+      <point x="77" y="-304" type="qcurve"/>
+      <point x="81" y="-312"/>
+      <point x="87" y="-317" type="qcurve"/>
+      <point x="93" y="-323"/>
+      <point x="100" y="-327" type="qcurve"/>
+      <point x="108" y="-330"/>
+      <point x="117" y="-330" type="qcurve"/>
+      <point x="196" y="-330" type="line"/>
+      <point x="205" y="-330"/>
+      <point x="213" y="-327" type="qcurve"/>
+      <point x="221" y="-323"/>
+      <point x="226" y="-317" type="qcurve"/>
+      <point x="232" y="-312"/>
+      <point x="236" y="-304" type="qcurve"/>
+      <point x="239" y="-296"/>
+      <point x="239" y="-288" type="qcurve"/>
+      <point x="239" y="298" type="line"/>
+      <point x="239" y="307"/>
+      <point x="236" y="315" type="qcurve"/>
+      <point x="232" y="322"/>
+      <point x="226" y="328" type="qcurve"/>
+      <point x="221" y="334"/>
+      <point x="213" y="337" type="qcurve"/>
+      <point x="205" y="340"/>
+      <point x="196" y="340" type="qcurve"/>
+      <point x="117" y="340" type="line"/>
+      <point x="108" y="340"/>
+    </contour>
+  </outline>
+</glyph>

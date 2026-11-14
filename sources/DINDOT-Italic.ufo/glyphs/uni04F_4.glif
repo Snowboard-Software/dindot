@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni04F4" format="2">
+  <advance width="1307"/>
+  <unicode hex="04F4"/>
+  <note>
+Canonical composition of Checyr and dieresiscmb.
+</note>
+  <anchor x="810" y="-172" name="bottom"/>
+  <anchor x="810" y="2006" name="top"/>
+  <outline>
+    <component base="Checyr"/>
+    <component base="dieresiscmb" xOffset="673.0614250614251" yOffset="508"/>
+  </outline>
+</glyph>
