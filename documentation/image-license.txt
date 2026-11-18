@@ -1,4 +1,5 @@
-The generated DINDOT readiness proof in google-fonts/readiness-proof.png is
+The generated DINDOT readiness and warning-cleanup proofs in
+google-fonts/readiness-proof.png and google-fonts/warning-cleanup-proof.png are
 Copyright 2026 GetDot. Permission is granted to Google Fonts reviewers and
 font editors to reproduce it in connection with reviewing or featuring
 DINDOT, with attribution to GetDot and https://www.getdot.ai/dindot/.

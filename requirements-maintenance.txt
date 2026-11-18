@@ -1,0 +1,3 @@
+# One-time 1.001 outline/source maintenance; not used by normal builds.
+-r requirements-qa.txt
+skia-python==144.1

@@ -6,6 +6,7 @@ from pathlib import Path
 import json
 import math
 import random
+from functools import lru_cache
 
 from fontTools.ttLib import TTFont
 from fontTools.agl import toUnicode
@@ -55,10 +56,16 @@ class FlattenPen(BasePen):
         return MultiLineString([c for c in self.contours if len(c)>1])
 
 
-def shape(path, text, features=None, language=None):
+@lru_cache(maxsize=32)
+def font_objects(path):
     f=TTFont(path)
     hf=hb.Font(hb.Face(path.read_bytes()))
     hf.scale=(8192,8192)
+    return f,hf
+
+
+def shape(path, text, features=None, language=None):
+    f,hf=font_objects(path)
     b=hb.Buffer();b.add_str(text);b.guess_segment_properties()
     if language:b.language=language
     hb.shape(hf,b,features or {})
@@ -94,15 +101,16 @@ def latin_core(f):
 
 def validate(reference, fonts, repeat=None):
     reports={}
+    maintenance=json.loads((ROOT/"documentation/google-fonts/warning-cleanup-changes.json").read_text())
     rng=random.Random(22)
     alphabet="ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789.,:;%+-/€()"
     sample=" ".join("".join(rng.choices(alphabet,k=12)) for _ in range(70))
     for path in sorted((fonts/"ttf").glob("*.ttf")):
         before=reference/"fonts"/path.name
         old,new=TTFont(before),TTFont(path)
-        assert set(old.getBestCmap()) <= set(new.getBestCmap()), path.name
+        assert set(old.getBestCmap())-set(new.getBestCmap())==set(maintenance["removed_codepoints"]),path.name
         assert new["head"].unitsPerEm==2048
-        assert new["name"].getDebugName(5)=="Version 1.000"
+        assert new["name"].getDebugName(5)=="Version 1.001"
         assert new["OS/2"].fsSelection & 128
         latin_core(new)
         assert set(r.FeatureTag for r in old["GSUB"].table.FeatureList.FeatureRecord) <= set(r.FeatureTag for r in new["GSUB"].table.FeatureList.FeatureRecord)
@@ -110,7 +118,15 @@ def validate(reference, fonts, repeat=None):
         # starting point, direction, decomposition and hint bytecode.
         og,ng=old.getGlyphSet(),new.getGlyphSet()
         worst_distance=0;worst_name=None;worst_width=0
+        style_changes=maintenance["styles"][path.stem]
+        not_exported=set(maintenance["non_exporting_glyphs"]+maintenance["removed_glyphs"])
+        redesigned=set(style_changes["carons"])|{"uni221D"}
+        compared=0
         for name in old.getGlyphOrder():
+            if name in not_exported:
+                assert name not in new.getGlyphOrder(),(path.name,name,"unused glyph exported")
+                continue
+            if name in redesigned:continue
             a=FlattenPen(og,.25);og[name].draw(a)
             b=FlattenPen(ng);ng[name].draw(b)
             ga,gb=a.geometry(),b.geometry()
@@ -118,10 +134,27 @@ def validate(reference, fonts, repeat=None):
             if not ga.is_empty:
                 dist=ga.hausdorff_distance(gb)
                 if dist>worst_distance:worst_distance,worst_name=dist,name
-                assert dist<=1.5,(path.name,name,"outline distance",dist)
+                limit=2.5 if name in style_changes["outline_cleanup"] else 1.5
+                assert dist<=limit,(path.name,name,"outline distance",dist,limit)
             delta=abs(old["hmtx"][name][0]/4-new["hmtx"][name][0])
             worst_width=max(worst_width,delta)
             assert delta<=.5,(path.name,name,"advance changed",delta)
+            compared+=1
+        # Intentional revisions have stricter structural/metric tests instead
+        # of pretending that their old appearance and advances are unchanged.
+        for name,change in style_changes["carons"].items():
+            glyph=new["glyf"][name]
+            assert glyph.isComposite() and len(glyph.components)==2,(path.name,name)
+            assert [c.glyphName for c in glyph.components]==[change["base"],change["mark"]]
+            assert new["hmtx"][name][0]==change["new_advance"]
+            assert [glyph.components[1].x,glyph.components[1].y]==change["mark_offset"]
+        assert new["hmtx"]["uni221D"][0]==new["hmtx"]["plus"][0]
+        prop=new["glyf"]["uni221D"];prop.recalcBounds(new["glyf"])
+        assert prop.xMin>=0 and prop.xMax<=new["hmtx"]["uni221D"][0],path.name
+        stat=new["STAT"].table
+        assert [a.AxisTag for a in stat.DesignAxisRecord.Axis]==["wght","ital"]
+        assert stat.AxisValueArray.AxisValue[0].Value==new["OS/2"].usWeightClass
+        assert stat.AxisValueArray.AxisValue[1].Value==int(bool(new["OS/2"].fsSelection&1))
         cases=0;max_position_delta=0
         texts=[sample,"AVATAR To We fi fl tt 0123456789 1/2 3/4 €12.40",
                "Ελληνικά ΑΒΓΔ ΖΗΘ ΙΚΛΜΝ ΞΟΠΡΣ ΤΥΦΧΨΩ",
@@ -154,6 +187,7 @@ def validate(reference, fonts, repeat=None):
             assert abs(sum(r[1] for r in old_result)-sum(r[1] for r in result))<=8,(path.name,"accented text width changed",text)
         catalan=shape(path,"l·l L·L",language="ca")
         assert {"periodcentered.loclCAT","periodcentered.loclCAT.case"} <= {r[0] for r in catalan}
+        assert sum(r[1] for r in shape(path,"co\u00adoperate"))==sum(r[1] for r in shape(path,"cooperate"))
         if repeat:
             for folder,suffix in [("ttf",".ttf"),("webfonts",".woff2")]:
                 filename=path.stem+suffix
@@ -162,14 +196,17 @@ def validate(reference, fonts, repeat=None):
         # permitted loca/glyf encoding changes and head checksum adjustment.
         web=TTFont(fonts/"webfonts"/(path.stem+".woff2"))
         assert new.getBestCmap()==web.getBestCmap()
-        for tag in ["GSUB","GPOS","GDEF","hmtx","OS/2","name"]:
+        for tag in ["GSUB","GPOS","GDEF","hmtx","OS/2","name","STAT","meta"]:
             assert new[tag].compile(new)==web[tag].compile(web),(path.name,tag,"webfont mismatch")
-        reports[path.stem]={"original_glyphs_compared":len(old.getGlyphOrder()),
+        reports[path.stem]={"original_glyphs_compared":compared,
             "codepoints_before":len(old.getBestCmap()),"codepoints_after":len(new.getBestCmap()),
             "max_outline_distance_2048_units":worst_distance,"worst_outline_glyph":worst_name,
             "max_advance_delta_2048_units":worst_width,"shaping_cases":cases,
             "max_shaping_position_delta_8192_units":max_position_delta,
             "latin_core_glyphs":"pass","ttf_woff2_tables":"pass",
+            "intentional_revisions_tested":sorted(redesigned),
+            "non_exporting_glyphs_verified":sorted(not_exported),
+            "stat_style_linking":"pass","soft_hyphen_shaping":"pass",
             "byte_identical_rebuild":bool(repeat)}
         print(path.stem,json.dumps(reports[path.stem]),flush=True)
     assert len(reports)==8,"Expected all eight faces"

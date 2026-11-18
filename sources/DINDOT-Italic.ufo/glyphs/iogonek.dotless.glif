@@ -9,8 +9,6 @@ Soft-dotted form without its tittle, selected before above marks.
   <outline>
     <contour>
       <point x="170" y="14" type="qcurve"/>
-      <point x="170" y="14"/>
-      <point x="170" y="14" type="qcurve"/>
       <point x="173" y="20"/>
       <point x="175" y="26" type="qcurve"/>
       <point x="430" y="979" type="line"/>

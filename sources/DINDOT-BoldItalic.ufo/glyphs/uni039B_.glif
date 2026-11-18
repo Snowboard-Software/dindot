@@ -17,7 +17,6 @@
       <point x="-71" y="99"/>
       <point x="-54" y="81"/>
       <point x="-42" y="75" type="qcurve"/>
-      <point x="-34" y="72" type="line"/>
       <point x="-26" y="68" type="line"/>
       <point x="-23" y="67"/>
       <point x="4" y="56" type="qcurve"/>
@@ -27,7 +26,6 @@
       <point x="26" y="46"/>
       <point x="31" y="43"/>
       <point x="33" y="42" type="qcurve"/>
-      <point x="44" y="38" type="line"/>
       <point x="53" y="34" type="line"/>
       <point x="56" y="32"/>
       <point x="63" y="29"/>
@@ -38,8 +36,6 @@
       <point x="135" y="25"/>
       <point x="157" y="41"/>
       <point x="165" y="53" type="qcurve"/>
-      <point x="187" y="85" type="line"/>
-      <point x="217" y="129" type="line"/>
       <point x="532" y="586" type="line"/>
       <point x="581" y="657"/>
       <point x="679" y="798"/>
@@ -58,11 +54,9 @@
       <point x="770" y="846"/>
       <point x="770" y="843"/>
       <point x="770" y="841" type="qcurve"/>
-      <point x="807" y="607" type="line"/>
       <point x="835" y="422" type="line"/>
       <point x="849" y="330"/>
       <point x="864" y="238" type="qcurve"/>
-      <point x="870" y="194" type="line"/>
       <point x="886" y="94" type="line"/>
       <point x="888" y="79"/>
       <point x="901" y="55"/>
@@ -89,13 +83,10 @@
       <point x="1172" y="111"/>
       <point x="1184" y="144"/>
       <point x="1181" y="161" type="qcurve"/>
-      <point x="1180" y="169" type="line"/>
       <point x="1173" y="212" type="line"/>
       <point x="1169" y="237"/>
       <point x="1162" y="286"/>
       <point x="1158" y="310" type="qcurve"/>
-      <point x="1143" y="409" type="line"/>
-      <point x="1031" y="1131" type="line"/>
       <point x="1007" y="1284" type="line"/>
       <point x="1005" y="1298"/>
       <point x="1003" y="1312" type="qcurve"/>
@@ -139,10 +130,6 @@
       <point x="722" y="1303"/>
       <point x="718" y="1298"/>
       <point x="716" y="1295" type="qcurve"/>
-      <point x="709" y="1284" type="line"/>
-      <point x="664" y="1218" type="line"/>
-      <point x="165" y="496" type="line"/>
-      <point x="89" y="387" type="line"/>
       <point x="-9" y="245" type="line"/>
       <point x="-12" y="241"/>
       <point x="-17" y="233"/>

@@ -133,7 +133,6 @@
       <point x="384" y="627" type="qcurve"/>
     </contour>
     <contour>
-      <point x="657" y="627" type="line"/>
       <point x="772" y="627"/>
       <point x="830" y="572" type="qcurve"/>
       <point x="890" y="517"/>

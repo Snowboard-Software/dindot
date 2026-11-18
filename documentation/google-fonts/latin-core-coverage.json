@@ -1,58 +1,58 @@
 {
   "DINDOT-Bold.ttf": {
-    "encoded_characters": 987,
+    "encoded_characters": 986,
     "required_encoded_latin_core": 319,
     "required_latin_core_glyphs": 324,
     "missing": [],
-    "validation": "scripts/validate_fonts.py; regression-checks.json"
+    "intentional_removed_codepoint": "U+00AD SOFT HYPHEN; handled by the shaping engine"
   },
   "DINDOT-BoldItalic.ttf": {
-    "encoded_characters": 987,
+    "encoded_characters": 986,
     "required_encoded_latin_core": 319,
     "required_latin_core_glyphs": 324,
     "missing": [],
-    "validation": "scripts/validate_fonts.py; regression-checks.json"
+    "intentional_removed_codepoint": "U+00AD SOFT HYPHEN; handled by the shaping engine"
   },
   "DINDOT-Italic.ttf": {
-    "encoded_characters": 987,
+    "encoded_characters": 986,
     "required_encoded_latin_core": 319,
     "required_latin_core_glyphs": 324,
     "missing": [],
-    "validation": "scripts/validate_fonts.py; regression-checks.json"
+    "intentional_removed_codepoint": "U+00AD SOFT HYPHEN; handled by the shaping engine"
   },
   "DINDOT-Medium.ttf": {
-    "encoded_characters": 987,
+    "encoded_characters": 986,
     "required_encoded_latin_core": 319,
     "required_latin_core_glyphs": 324,
     "missing": [],
-    "validation": "scripts/validate_fonts.py; regression-checks.json"
+    "intentional_removed_codepoint": "U+00AD SOFT HYPHEN; handled by the shaping engine"
   },
   "DINDOT-MediumItalic.ttf": {
-    "encoded_characters": 987,
+    "encoded_characters": 986,
     "required_encoded_latin_core": 319,
     "required_latin_core_glyphs": 324,
     "missing": [],
-    "validation": "scripts/validate_fonts.py; regression-checks.json"
+    "intentional_removed_codepoint": "U+00AD SOFT HYPHEN; handled by the shaping engine"
   },
   "DINDOT-Regular.ttf": {
-    "encoded_characters": 987,
+    "encoded_characters": 986,
     "required_encoded_latin_core": 319,
     "required_latin_core_glyphs": 324,
     "missing": [],
-    "validation": "scripts/validate_fonts.py; regression-checks.json"
+    "intentional_removed_codepoint": "U+00AD SOFT HYPHEN; handled by the shaping engine"
   },
   "DINDOT-SemiBold.ttf": {
-    "encoded_characters": 987,
+    "encoded_characters": 986,
     "required_encoded_latin_core": 319,
     "required_latin_core_glyphs": 324,
     "missing": [],
-    "validation": "scripts/validate_fonts.py; regression-checks.json"
+    "intentional_removed_codepoint": "U+00AD SOFT HYPHEN; handled by the shaping engine"
   },
   "DINDOT-SemiBoldItalic.ttf": {
-    "encoded_characters": 987,
+    "encoded_characters": 986,
     "required_encoded_latin_core": 319,
     "required_latin_core_glyphs": 324,
     "missing": [],
-    "validation": "scripts/validate_fonts.py; regression-checks.json"
+    "intentional_removed_codepoint": "U+00AD SOFT HYPHEN; handled by the shaping engine"
   }
 }

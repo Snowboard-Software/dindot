@@ -1,0 +1,87 @@
+{
+  "candidate_version": "1.001",
+  "date": "2026-11-18",
+  "independent_builds": 2,
+  "files": [
+    {
+      "file": "fonts/ttf/DINDOT-Bold.ttf",
+      "sha256": "846aa61dcbb98691e8f74729eb337e01d852142e02b9d3b84d0bb3046d99eff6",
+      "match": true
+    },
+    {
+      "file": "fonts/ttf/DINDOT-BoldItalic.ttf",
+      "sha256": "3bf31ff01e44ae8d6230004397a521a2f9d94a59cb682c32583481c875c8f13e",
+      "match": true
+    },
+    {
+      "file": "fonts/ttf/DINDOT-Italic.ttf",
+      "sha256": "42e5e2e83f080439f06824b280d88edd3982b5d88345f2d6cf18eeae3726e2e4",
+      "match": true
+    },
+    {
+      "file": "fonts/ttf/DINDOT-Medium.ttf",
+      "sha256": "91bbb65a16761b6c47f3dbf97a557cb7910bd4b62b36c700dbef25958307de74",
+      "match": true
+    },
+    {
+      "file": "fonts/ttf/DINDOT-MediumItalic.ttf",
+      "sha256": "42e91a3475ab684b64b6b88bcb87cf406e134f4fb88024c446ed652fe8bd5384",
+      "match": true
+    },
+    {
+      "file": "fonts/ttf/DINDOT-Regular.ttf",
+      "sha256": "6333e23480f5d6871239db534f478bc1d61bd60dcd8ffb2cec4f3743304defd1",
+      "match": true
+    },
+    {
+      "file": "fonts/ttf/DINDOT-SemiBold.ttf",
+      "sha256": "05da3c19a67bbbee09b5d46a80ce3622db4f1a0edd0f994ee30bfe1d190e8fbf",
+      "match": true
+    },
+    {
+      "file": "fonts/ttf/DINDOT-SemiBoldItalic.ttf",
+      "sha256": "eff67eac11a5236347a1a501031a0458bb4aeed03309fe8804b6ed3b66ec48e6",
+      "match": true
+    },
+    {
+      "file": "fonts/webfonts/DINDOT-Bold.woff2",
+      "sha256": "fc1d4d07715576f241c58bfc9f40d1e868a75329418db175fdb911c5b1b3c880",
+      "match": true
+    },
+    {
+      "file": "fonts/webfonts/DINDOT-BoldItalic.woff2",
+      "sha256": "98030243f9d243fe568be507fa20e89ea3793e128ddb291b9e12e3f68027185f",
+      "match": true
+    },
+    {
+      "file": "fonts/webfonts/DINDOT-Italic.woff2",
+      "sha256": "279ec6aa2b7068c813501fda82d684b16e110351404df71b05552507bb00285e",
+      "match": true
+    },
+    {
+      "file": "fonts/webfonts/DINDOT-Medium.woff2",
+      "sha256": "8ec543ac16769a09bd0cac395035d0d6e851c0030a5c673f7de8ef1e41bccce9",
+      "match": true
+    },
+    {
+      "file": "fonts/webfonts/DINDOT-MediumItalic.woff2",
+      "sha256": "807af6c46847f5a4da73f41a9c8657f3cb17e8b490393b09ead017278889c542",
+      "match": true
+    },
+    {
+      "file": "fonts/webfonts/DINDOT-Regular.woff2",
+      "sha256": "1555f1e8df20f40ddfea27c6fe1b438716711340d2b3e961dbf127ced3b8f988",
+      "match": true
+    },
+    {
+      "file": "fonts/webfonts/DINDOT-SemiBold.woff2",
+      "sha256": "eb25bb05895e7259fc2e07c7323d1f8ba146f13a316abaa5e4ce864a6194b201",
+      "match": true
+    },
+    {
+      "file": "fonts/webfonts/DINDOT-SemiBoldItalic.woff2",
+      "sha256": "c19828ba517a8126e5785b9cf4a43e25332cd8fb74b01062f32d57157877268b",
+      "match": true
+    }
+  ]
+}

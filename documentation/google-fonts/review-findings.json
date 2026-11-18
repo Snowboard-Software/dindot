@@ -1,0 +1,9 @@
+{
+  "notice": "Project regression gate only. These are unwaived findings requiring Google Fonts review. The raw profile still exits 1 and reports all warnings/failures.",
+  "allowed_findings": {
+    "googlefonts/family_name_compliance": {"severity": "FAIL", "code": "abbreviation", "maximum_results": 8},
+    "contour_count": {"severity": "WARN", "code": "contour-count", "maximum_results": 8},
+    "googlefonts/glyphsets/shape_languages": {"severity": "WARN", "code": "warning-language-shaping", "maximum_results": 8},
+    "googlefonts/metadata/unreachable_subsetting": {"severity": "WARN", "code": "unreachable-subsetting", "maximum_results": 8}
+  }
+}

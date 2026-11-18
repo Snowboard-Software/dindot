@@ -48,10 +48,10 @@
       <point x="744" y="1032"/>
       <point x="732" y="1039" type="qcurve"/>
       <point x="726" y="1043"/>
-      <point x="713" y="1046"/>
-      <point x="705" y="1046" type="qcurve"/>
-      <point x="65" y="1048" type="line"/>
-      <point x="57" y="1048"/>
+      <point x="713" y="1047"/>
+      <point x="705" y="1047" type="qcurve"/>
+      <point x="65" y="1047" type="line"/>
+      <point x="57" y="1047"/>
       <point x="44" y="1045"/>
       <point x="38" y="1041" type="qcurve"/>
       <point x="25" y="1034"/>

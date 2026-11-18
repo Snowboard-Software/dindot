@@ -5,6 +5,7 @@ from PIL import Image,ImageDraw,ImageFont
 import freetype
 import uharfbuzz as hb
 from fontTools.unicodedata import script
+from fontTools.ttLib import TTFont
 
 
 def shaped_text(image,xy,text,path,size,language=None):
@@ -37,13 +38,14 @@ if __name__=="__main__":
     p.add_argument("--fonts",type=Path,required=True)
     p.add_argument("--output",type=Path,required=True)
     a=p.parse_args()
+    version=TTFont(a.fonts/"ttf/DINDOT-Regular.ttf")["name"].getDebugName(5).replace("Version ","")
     image=Image.new("RGB",(1680,1450),"#f7f6f2")
     draw=ImageDraw.Draw(image)
     label=ImageFont.load_default(size=24)
     text="DINDOT 0123456789 €1,234.56 AVATAR fi fl Ελληνικά Кириллица"
     for i,style in enumerate(["Regular","BoldItalic"]):
         for j,(folder,title) in enumerate([(a.reference/"fonts","Published v0.22.0"),
-                                          (a.fonts/"ttf","UFO candidate 1.000")]):
+                                          (a.fonts/"ttf","UFO candidate "+version)]):
             y=i*240+j*105
             draw.text((30,y+8),title+" / "+style,font=label,fill="#444444")
             shaped_text(image,(30,y+39),text,folder/f"DINDOT-{style}.ttf",50)

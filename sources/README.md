@@ -1,7 +1,7 @@
 # Maintained design sources
 
 The eight `DINDOT-*.ufo` directories are the editable design sources for the
-unreleased **1.000 Google Fonts candidate**. Open them in any UFO 3 compatible
+unreleased **1.001 Google Fonts candidate**. Open them in any UFO 3 compatible
 font editor. Their outlines, components, metrics, anchors and `features.fea`
 files are maintained here. A normal build uses these sources directly; it does
 not extract sources from a binary or run the historical procedural generator.
@@ -55,3 +55,20 @@ second font family or an alternative version to install.
 
 All font sources and build code are under the root SIL OFL 1.1, with the
 upstream attribution in `AUTHORS.txt` and the license notices retained.
+
+## Candidate 1.001 maintenance
+
+`../scripts/prepare_1001_candidate.py` records the one-time update from the
+1.000 sources. Normal builds continue to use these maintained UFOs directly.
+Carons now use a real base plus the distinct alternate caron, with a visible
+gap at every weight. The proportional-to symbol was redrawn at the common
+math advance using its weight's existing stroke thickness. Redundant and
+zero-length segments were removed; tiny axis errors were snapped and gentle
+polyline turns were replaced by tangent quadratics with a maximum corner
+displacement of 1.5/2048 em. The binary regression report measures the result.
+
+U+00AD SOFT HYPHEN is left to the shaping engine. Six unreachable unencoded
+legacy marks remain editable here but are excluded from export using the UFO
+`public.skipExportGlyphs` convention. The normal build also writes a STAT table
+with weight/style values and linked upright/italic records. No release ZIP or
+live website font is replaced by these development-candidate changes.
