@@ -178,9 +178,9 @@
       </dict>
     </array>
     <key>openTypeNameUniqueID</key>
-    <string>1.000;GETD;DINDOT-SemiBoldItalic</string>
+    <string>1.001;GETD;DINDOT-SemiBoldItalic</string>
     <key>openTypeNameVersion</key>
-    <string>Version 1.000</string>
+    <string>Version 1.001</string>
     <key>openTypeOS2CodePageRanges</key>
     <array>
       <integer>0</integer>
@@ -287,7 +287,7 @@
     <key>versionMajor</key>
     <integer>1</integer>
     <key>versionMinor</key>
-    <integer>0</integer>
+    <integer>1</integer>
     <key>xHeight</key>
     <integer>1038</integer>
   </dict>

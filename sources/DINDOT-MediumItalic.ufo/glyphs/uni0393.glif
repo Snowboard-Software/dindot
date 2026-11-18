@@ -64,7 +64,6 @@
       <point x="539" y="1230"/>
       <point x="553" y="1240"/>
       <point x="561" y="1239" type="qcurve"/>
-      <point x="610" y="1238" type="line"/>
       <point x="1165" y="1238" type="line"/>
       <point x="1167" y="1238"/>
       <point x="1174" y="1238"/>
@@ -73,7 +72,6 @@
       <point x="1214" y="1248"/>
       <point x="1230" y="1268"/>
       <point x="1234" y="1280" type="qcurve"/>
-      <point x="1246" y="1328" type="line"/>
       <point x="1251" y="1343" type="line"/>
       <point x="1255" y="1356"/>
       <point x="1250" y="1383"/>
@@ -84,7 +82,6 @@
       <point x="1173" y="1414"/>
       <point x="1165" y="1414"/>
       <point x="1162" y="1414" type="qcurve"/>
-      <point x="439" y="1414" type="line"/>
     </contour>
   </outline>
 </glyph>

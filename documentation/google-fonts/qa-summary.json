@@ -1,31 +1,24 @@
 {
-  "date": "2026-11-14",
-  "candidate_version": "1.000",
+  "date": "2026-11-18",
+  "candidate_version": "1.001",
   "fontspector_asset_version": "1.9.1",
   "fontspector_reported_version": "1.9.0",
   "summary": {
-    "SKIP": 477,
-    "PASS": 762,
+    "SKIP": 453,
+    "PASS": 823,
     "INFO": 94,
-    "WARN": 93,
+    "WARN": 24,
     "FAIL": 8
   },
   "failures_by_check": {
     "googlefonts/family_name_compliance": 8
   },
   "warnings_by_check": {
-    "opentype/STAT/ital_axis": 1,
-    "googlefonts/metadata/unreachable_subsetting": 8,
-    "alt_caron": 32,
-    "contour_count": 8,
-    "math_signs_width": 8,
-    "soft_hyphen": 8,
-    "unreachable_glyphs": 8,
     "googlefonts/glyphsets/shape_languages": 8,
-    "outline_colinear_vectors": 4,
-    "overlapping_path_segments": 4,
-    "outline_semi_vertical": 4
+    "contour_count": 8,
+    "googlefonts/metadata/unreachable_subsetting": 8
   },
-  "staging_layout": "dindot/*.ttf",
-  "staging_reason": "Google Fonts downstream directory check; maintained binaries live in fonts/ttf"
+  "previous_warning_results": 93,
+  "resolved_warning_results": 69,
+  "report_policy": "Raw, unfiltered Google Fonts profile; remaining findings require review."
 }

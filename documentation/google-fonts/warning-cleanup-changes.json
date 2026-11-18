@@ -1,0 +1,3934 @@
+{
+  "version": "1.001",
+  "removed_codepoints": [
+    173
+  ],
+  "non_exporting_glyphs": [
+    "acutecomb.loclPLK",
+    "tonoscomb",
+    "dieresistonoscomb",
+    "circumflexcmb.case",
+    "brevecmb.case",
+    "hookabovecomb.case"
+  ],
+  "removed_glyphs": [
+    "uni00AD"
+  ],
+  "styles": {
+    "DINDOT-Bold": {
+      "carons": {
+        "Lcaron": {
+          "base": "L",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            642,
+            0
+          ],
+          "old_advance": 1079,
+          "new_advance": 1079,
+          "additional_gap_shift": 0
+        },
+        "dcaron": {
+          "base": "d",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            1095,
+            0
+          ],
+          "old_advance": 1319,
+          "new_advance": 1319,
+          "additional_gap_shift": 60
+        },
+        "lcaron": {
+          "base": "l",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            615,
+            0
+          ],
+          "old_advance": 661,
+          "new_advance": 731,
+          "additional_gap_shift": 0
+        },
+        "tcaron": {
+          "base": "t",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            629,
+            188
+          ],
+          "old_advance": 734,
+          "new_advance": 745,
+          "additional_gap_shift": 0
+        }
+      },
+      "proportional": {
+        "old_advance": 1440,
+        "new_advance": 1082,
+        "stroke_width": 202.4
+      },
+      "outline_cleanup": {
+        "Elcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ljecyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Lslash": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "Omegatonos": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Shchacyr": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "Upsilontonos": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ustraightstrokecyrillic": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "W": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Wacute": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Wcircumflex": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Wdieresis": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Wgrave": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Y": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "a.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aacute.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abreve.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abreveacute.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevedotbelow.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevegrave.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevehookabove.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevetilde.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acaron.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflex.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexacute.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexdotbelow.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexgrave.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexhookabove.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflextilde.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acyr.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "adieresis.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "adotbelow.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "agrave.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "ahookabove.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "alpha": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "alphatonos": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "amacron.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aogonek.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aring.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "atilde.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "b": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "d": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ddotbelow": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "decyr.loclBGR": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "epsilontonos": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "g": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "gacute": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "gbreve": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "gcaron": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "gcircumflex": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "gcommaaccent": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "gdotaccent": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "iogonek": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "iogonek.dotless": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "lslash": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "omegatonos": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "one.tlf": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "r": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "racute": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "rcaron": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "rcommaaccent": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "rdotbelow": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "t": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "t_t": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "tbar": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "tcedilla": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "tcommaaccent": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "tdotbelow": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "trademark": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0393": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0394": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0398": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039E": {
+          "redundant_points_removed": 13,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A3": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A5": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A8": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A9": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B2": {
+          "redundant_points_removed": 10,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B3": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B5": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B6": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B7": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B8": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BA": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BB": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C0": {
+          "redundant_points_removed": 9,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C3": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C4": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C6": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C9": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D5": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03F5": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2126": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni217E": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "w": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "wacute": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "wcircumflex": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "wdieresis": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "wgrave": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        }
+      }
+    },
+    "DINDOT-BoldItalic": {
+      "carons": {
+        "Lcaron": {
+          "base": "L",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            642,
+            0
+          ],
+          "old_advance": 1079,
+          "new_advance": 1079,
+          "additional_gap_shift": 0
+        },
+        "dcaron": {
+          "base": "d",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            1107,
+            0
+          ],
+          "old_advance": 1319,
+          "new_advance": 1445,
+          "additional_gap_shift": 76
+        },
+        "lcaron": {
+          "base": "l",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            615,
+            0
+          ],
+          "old_advance": 661,
+          "new_advance": 953,
+          "additional_gap_shift": 0
+        },
+        "tcaron": {
+          "base": "t",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            680,
+            188
+          ],
+          "old_advance": 734,
+          "new_advance": 1018,
+          "additional_gap_shift": 0
+        }
+      },
+      "proportional": {
+        "old_advance": 1440,
+        "new_advance": 1082,
+        "stroke_width": 202.4
+      },
+      "outline_cleanup": {
+        "Abrevehookabove": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Acircumflexhookabove": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Cheverticalstrokecyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ecircumflexhookabove": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Emcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Eukrcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "K": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Kacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Kcaron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Kcommaaccent": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "M": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Macute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Omegatonos": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Oogonek": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Oslash": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Schwacyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Uogonek": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "aogonek": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "aogonek.ss02": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "cheverticalstrokecyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "eogonek": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "epsilontonos": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "etatonos": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "eth": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.dnom": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.dnom.data": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.numr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.numr.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "hookabovecomb.case": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "nine": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "omegatonos": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "one.tosf": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "onehalf.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "onequarter.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "oogonek": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "oogonekmacron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "six": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "six.osf": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "trademark": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0393": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0394": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni0398": {
+          "redundant_points_removed": 8,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039A": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039B": {
+          "redundant_points_removed": 13,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039C": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039E": {
+          "redundant_points_removed": 18,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A3": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A8": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03A9": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B2": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 2
+        },
+        "uni03B3": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B4": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B6": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B7": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B8": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BA": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BB": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C0": {
+          "redundant_points_removed": 9,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C2": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C3": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C4": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03C6": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03C7": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03C8": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D1": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D5": {
+          "redundant_points_removed": 18,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03F5": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2082": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2082.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2098": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2126": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2150.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2151.data": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2152.data": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2152.data.ss04": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2153.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2155": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2155.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2156": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2157": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2158": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2159": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2159.data": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni215A.data": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni215B.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni215D.data": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni216F": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni27E9": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        }
+      }
+    },
+    "DINDOT-Italic": {
+      "carons": {
+        "Lcaron": {
+          "base": "L",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            525,
+            0
+          ],
+          "old_advance": 1093,
+          "new_advance": 1093,
+          "additional_gap_shift": 0
+        },
+        "dcaron": {
+          "base": "d",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            1101,
+            0
+          ],
+          "old_advance": 1167,
+          "new_advance": 1408,
+          "additional_gap_shift": 0
+        },
+        "lcaron": {
+          "base": "l",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            488,
+            0
+          ],
+          "old_advance": 573,
+          "new_advance": 795,
+          "additional_gap_shift": 0
+        },
+        "tcaron": {
+          "base": "t",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            585,
+            0
+          ],
+          "old_advance": 703,
+          "new_advance": 892,
+          "additional_gap_shift": 0
+        }
+      },
+      "proportional": {
+        "old_advance": 1440,
+        "new_advance": 1048,
+        "stroke_width": 123.28
+      },
+      "outline_cleanup": {
+        "Efcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohorn": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohornacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohorndotbelow": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohorngrave": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohornhookabove": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohorntilde": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Omegatonos": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Uogonek": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "epsilontonos": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ereversedcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "etatonos": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.dnom.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "icyr.loclBGR": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "igravecyr.loclBGR": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "iogonek": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "iogonek.dotless": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ishortcyr.loclBGR": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "kabashkircyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "omegatonos": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "three": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "three.tosf": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "trademark": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "tsecyr.loclBGR": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0393": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0394": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni039B": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039E": {
+          "redundant_points_removed": 8,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03A3": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A6": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A8": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A9": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B2": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 2
+        },
+        "uni03B3": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B4": {
+          "redundant_points_removed": 8,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B5": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B6": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B7": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B8": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BA": {
+          "redundant_points_removed": 11,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BB": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BE": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C0": {
+          "redundant_points_removed": 8,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C2": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C3": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C4": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C7": {
+          "redundant_points_removed": 8,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C8": {
+          "redundant_points_removed": 10,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C9": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D1": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D5": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2091": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2126": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        }
+      }
+    },
+    "DINDOT-Medium": {
+      "carons": {
+        "Lcaron": {
+          "base": "L",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            562,
+            0
+          ],
+          "old_advance": 1085,
+          "new_advance": 1085,
+          "additional_gap_shift": 0
+        },
+        "dcaron": {
+          "base": "d",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            1075,
+            0
+          ],
+          "old_advance": 1212,
+          "new_advance": 1212,
+          "additional_gap_shift": 0
+        },
+        "lcaron": {
+          "base": "l",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            529,
+            0
+          ],
+          "old_advance": 601,
+          "new_advance": 621,
+          "additional_gap_shift": 0
+        },
+        "tcaron": {
+          "base": "t",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            598,
+            62
+          ],
+          "old_advance": 711,
+          "new_advance": 711,
+          "additional_gap_shift": 0
+        }
+      },
+      "proportional": {
+        "old_advance": 1440,
+        "new_advance": 1060,
+        "stroke_width": 150.88
+      },
+      "outline_cleanup": {
+        "OE": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 2,
+          "bounded_quadratic_fits": 0
+        },
+        "Omegatonos": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "a.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aacute.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abreve.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abreveacute.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevedotbelow.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevegrave.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevehookabove.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevetilde.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acaron.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflex.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexacute.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexdotbelow.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexgrave.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexhookabove.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflextilde.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acyr.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "adieresis.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "adotbelow.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "agrave.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "ahookabove.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "amacron.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aogonek.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aring.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "atilde.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "eogonek": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "epsilontonos": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "kabashkircyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "nine.dnom": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "nine.dnom.data": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "nine.numr": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "nine.numr.data": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "tecyr": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "trademark": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0398": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A9": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B2": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B4": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B5": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B6": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B8": {
+          "redundant_points_removed": 11,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C3": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C6": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D1": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D5": {
+          "redundant_points_removed": 8,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03F5": {
+          "redundant_points_removed": 9,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2126": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni21BA": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni221D": {
+          "redundant_points_removed": 42,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        }
+      }
+    },
+    "DINDOT-MediumItalic": {
+      "carons": {
+        "Lcaron": {
+          "base": "L",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            562,
+            0
+          ],
+          "old_advance": 1085,
+          "new_advance": 1085,
+          "additional_gap_shift": 0
+        },
+        "dcaron": {
+          "base": "d",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            1075,
+            0
+          ],
+          "old_advance": 1212,
+          "new_advance": 1392,
+          "additional_gap_shift": 0
+        },
+        "lcaron": {
+          "base": "l",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            529,
+            0
+          ],
+          "old_advance": 601,
+          "new_advance": 846,
+          "additional_gap_shift": 0
+        },
+        "tcaron": {
+          "base": "t",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            615,
+            62
+          ],
+          "old_advance": 711,
+          "new_advance": 932,
+          "additional_gap_shift": 0
+        }
+      },
+      "proportional": {
+        "old_advance": 1440,
+        "new_advance": 1060,
+        "stroke_width": 150.88
+      },
+      "outline_cleanup": {
+        "Abreveacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Abrevegrave": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Abrevehookabove": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Abrevetilde": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Omegatonos": {
+          "redundant_points_removed": 18,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "Zedescendercyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "brevecmb.case": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "c": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "cacute": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "cacute.loclPLK": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ccaron": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ccedilla": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ccircumflex": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "cdotaccent": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "epsilontonos": {
+          "redundant_points_removed": 9,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ereversedcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "escyr": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "etatonos": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.dnom": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.dnom.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.numr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.numr.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.tosf": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "iogonek": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "iogonek.dotless": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "kabashkircyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "omegatonos": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "thorn": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "trademark": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0393": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0394": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0398": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039B": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039E": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A3": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A9": {
+          "redundant_points_removed": 15,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03B2": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B3": {
+          "redundant_points_removed": 8,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B4": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B5": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B6": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B7": {
+          "redundant_points_removed": 10,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B8": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03BA": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03BB": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BE": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C0": {
+          "redundant_points_removed": 8,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C2": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C3": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 2
+        },
+        "uni03C4": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C6": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C7": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03C8": {
+          "redundant_points_removed": 9,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 2
+        },
+        "uni03C9": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D1": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D5": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03F5": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2085": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2085.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2126": {
+          "redundant_points_removed": 15,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni215A": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni215D": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni217D": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni21BA": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni221D": {
+          "redundant_points_removed": 42,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        }
+      }
+    },
+    "DINDOT-Regular": {
+      "carons": {
+        "Lcaron": {
+          "base": "L",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            525,
+            0
+          ],
+          "old_advance": 1093,
+          "new_advance": 1093,
+          "additional_gap_shift": 0
+        },
+        "dcaron": {
+          "base": "d",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            1102,
+            0
+          ],
+          "old_advance": 1167,
+          "new_advance": 1182,
+          "additional_gap_shift": 0
+        },
+        "lcaron": {
+          "base": "l",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            489,
+            0
+          ],
+          "old_advance": 573,
+          "new_advance": 573,
+          "additional_gap_shift": 0
+        },
+        "tcaron": {
+          "base": "t",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            586,
+            0
+          ],
+          "old_advance": 703,
+          "new_advance": 703,
+          "additional_gap_shift": 0
+        }
+      },
+      "proportional": {
+        "old_advance": 1440,
+        "new_advance": 1048,
+        "stroke_width": 123.28
+      },
+      "outline_cleanup": {
+        "OE": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 2,
+          "bounded_quadratic_fits": 0
+        },
+        "Omegatonos": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "a": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "a.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aacute": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "aacute.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abreve": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "abreve.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abreveacute": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "abreveacute.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevedotbelow": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevedotbelow.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevegrave": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevegrave.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevehookabove": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevehookabove.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevetilde": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevetilde.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acaron": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "acaron.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflex": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflex.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexacute": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexacute.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexdotbelow": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexdotbelow.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexgrave": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexgrave.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexhookabove": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexhookabove.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflextilde": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflextilde.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acyr": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "acyr.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "adieresis": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "adieresis.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "adotbelow": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "adotbelow.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "agrave": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "agrave.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "ahookabove": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ahookabove.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "alpha": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "alphatonos": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "amacron": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "amacron.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aogonek": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "aogonek.ss02": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aring": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "aring.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "atilde": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "atilde.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "eogonek": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "epsilontonos": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ohorn": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ohornacute": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ohorndotbelow": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ohorngrave": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ohornhookabove": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ohorntilde": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "oogonek": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "oogonekmacron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "tecyr": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "trademark": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0394": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039B": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A8": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A9": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B2": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B3": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B4": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B6": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B8": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BB": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BE": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C2": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C3": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C6": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C7": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D1": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D5": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03F5": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2126": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        }
+      }
+    },
+    "DINDOT-SemiBold": {
+      "carons": {
+        "Lcaron": {
+          "base": "L",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            598,
+            0
+          ],
+          "old_advance": 1075,
+          "new_advance": 1075,
+          "additional_gap_shift": 0
+        },
+        "dcaron": {
+          "base": "d",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            1055,
+            0
+          ],
+          "old_advance": 1259,
+          "new_advance": 1259,
+          "additional_gap_shift": 8
+        },
+        "lcaron": {
+          "base": "l",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            571,
+            0
+          ],
+          "old_advance": 630,
+          "new_advance": 675,
+          "additional_gap_shift": 0
+        },
+        "tcaron": {
+          "base": "t",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            610,
+            126
+          ],
+          "old_advance": 719,
+          "new_advance": 719,
+          "additional_gap_shift": 0
+        }
+      },
+      "proportional": {
+        "old_advance": 1440,
+        "new_advance": 1070,
+        "stroke_width": 173.88
+      },
+      "outline_cleanup": {
+        "Becyr": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "C": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Cacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Cacute.loclPLK": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ccaron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ccedilla": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ccircumflex": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Cdotaccent": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Djecyr": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Dzecyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Eng": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ercyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ereversedcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Escyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Esdescendercyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Eukrcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "G": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Gacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Gbreve": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Gcaron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Gcircumflex": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Gcommaaccent": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Gdotaccent": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Germandbls": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Hardcyr": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ljecyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "O": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Oacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Oacute.loclPLK": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Obarredcyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Obreve": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ocaron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ocenteredtilde": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ocircumflex": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ocircumflexacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ocircumflexdotbelow": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ocircumflexgrave": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ocircumflexhookabove": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ocircumflextilde": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ocyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Odieresis": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Odotbelow": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ograve": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohookabove": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohorn": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohornacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohorndotbelow": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohorngrave": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohornhookabove": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohorntilde": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ohungarumlaut": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Omacron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Omicrontonos": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Oogonek": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Oogonekmacron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Oslash": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Otilde": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "P": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Pacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Q": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "S": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Sacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Sacute.loclPLK": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Scaron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Scedilla": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Schwacyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Scircumflex": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Scommaaccent": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Sdotbelow": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Shchacyr": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "Softcyr": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Thorn": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Umacroncyrillic": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ushortcyr": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Yacyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ylongcyr": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Yucyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "a.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aacute.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abreve.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abreveacute.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevedotbelow.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevegrave.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevehookabove.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "abrevetilde.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acaron.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflex.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexacute.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexdotbelow.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexgrave.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflexhookabove.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acircumflextilde.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "acyr.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "adieresis.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "adotbelow.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "ae": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "agrave.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "ahookabove.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "amacron.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aogonek.ss02": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "aring.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "atilde.ss02": {
+          "redundant_points_removed": 0,
+          "axis_snaps": 1,
+          "bounded_quadratic_fits": 0
+        },
+        "eng": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "epsilontonos": {
+          "redundant_points_removed": 10,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ereversedcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "eukrcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "f": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "fi": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "fl": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "florin": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "njecyr": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ordfeminine": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "oslash": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "t_t": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "trademark": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0398": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039B": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039F": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A1": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B2": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B3": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B4": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B5": {
+          "redundant_points_removed": 9,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B6": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B8": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C2": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C3": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C6": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C9": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D1": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D5": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03F5": {
+          "redundant_points_removed": 9,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0E3F": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0E3F.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni216D": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni21BA": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni21BB": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "w": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "yacyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        }
+      }
+    },
+    "DINDOT-SemiBoldItalic": {
+      "carons": {
+        "Lcaron": {
+          "base": "L",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            598,
+            0
+          ],
+          "old_advance": 1075,
+          "new_advance": 1075,
+          "additional_gap_shift": 0
+        },
+        "dcaron": {
+          "base": "d",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            1063,
+            0
+          ],
+          "old_advance": 1259,
+          "new_advance": 1391,
+          "additional_gap_shift": 16
+        },
+        "lcaron": {
+          "base": "l",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            571,
+            0
+          ],
+          "old_advance": 630,
+          "new_advance": 899,
+          "additional_gap_shift": 0
+        },
+        "tcaron": {
+          "base": "t",
+          "mark": "caroncmb.alt",
+          "mark_offset": [
+            644,
+            126
+          ],
+          "old_advance": 719,
+          "new_advance": 972,
+          "additional_gap_shift": 0
+        }
+      },
+      "proportional": {
+        "old_advance": 1440,
+        "new_advance": 1070,
+        "stroke_width": 173.88
+      },
+      "outline_cleanup": {
+        "Cheverticalstrokecyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Efcyr": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Elcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Emcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Icyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Igravecyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Imacroncyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Iogonek": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ishortcyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "K": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Kacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Kcaron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Kcommaaccent": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Ljecyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "M": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Macute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "Omegatonos": {
+          "redundant_points_removed": 17,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "Oslash": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "alpha": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "alphatonos": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "aogonek": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "aogonek.ss02": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "e": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "eacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ebreve": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ecaron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ecircumflex": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ecircumflexacute": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ecircumflexdotbelow": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ecircumflexgrave": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ecircumflexhookabove": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ecircumflextilde": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "edieresis": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "edotaccent": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "edotbelow": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "egrave": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "ehookabove": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "emacron": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "eogonek": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "epsilontonos": {
+          "redundant_points_removed": 11,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "etatonos": {
+          "redundant_points_removed": 12,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "etilde": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.numr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "five.numr.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "iecyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "iegravecyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "iocyr": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "iogonek": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "iogonek.dotless": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "nine.tlf": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "omegatonos": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "schwacyrillic": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "trademark": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0393": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0394": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni0398": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039A": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039B": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039C": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni039E": {
+          "redundant_points_removed": 17,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03A3": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03A6": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A8": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03A9": {
+          "redundant_points_removed": 9,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03B2": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B3": {
+          "redundant_points_removed": 6,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B4": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03B5": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B6": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B7": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03B8": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BA": {
+          "redundant_points_removed": 3,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BB": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03BE": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C0": {
+          "redundant_points_removed": 9,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C2": {
+          "redundant_points_removed": 4,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C3": {
+          "redundant_points_removed": 8,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C4": {
+          "redundant_points_removed": 10,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03C6": {
+          "redundant_points_removed": 16,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03C7": {
+          "redundant_points_removed": 7,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni03C8": {
+          "redundant_points_removed": 15,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03C9": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D1": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03D5": {
+          "redundant_points_removed": 5,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni03F5": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2126": {
+          "redundant_points_removed": 9,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 1
+        },
+        "uni2158.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni215A": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni215A.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni215D.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni216F": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni21BA": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni21BB": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2206.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni2207.data": {
+          "redundant_points_removed": 1,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        },
+        "uni27E8": {
+          "redundant_points_removed": 2,
+          "axis_snaps": 0,
+          "bounded_quadratic_fits": 0
+        }
+      }
+    }
+  }
+}

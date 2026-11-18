@@ -5,6 +5,7 @@ import os
 import subprocess
 import sys
 from fontTools.ttLib import TTFont
+from fontTools.otlLib.builder import buildStatTable
 
 ROOT = Path(__file__).resolve().parents[1]
 EPOCH = 1793966400  # 2026-11-06 12:00:00 UTC; deterministic build timestamp
@@ -40,6 +41,16 @@ def build(output):
         if source.stem in {"DINDOT-Regular", "DINDOT-Italic", "DINDOT-Bold", "DINDOT-BoldItalic"}:
             f["name"].removeNames(nameID=16)
             f["name"].removeNames(nameID=17)
+        weight=f["OS/2"].usWeightClass
+        italic=bool(f["OS/2"].fsSelection & 1)
+        label={400:"Regular",500:"Medium",600:"SemiBold",700:"Bold"}[weight]
+        weight_value=dict(value=weight,name=label,flags=2 if weight==400 else 0)
+        if weight==400:weight_value["linkedValue"]=700
+        italic_value=dict(value=int(italic),name="Italic" if italic else "Roman",flags=0 if italic else 2)
+        if not italic:italic_value["linkedValue"]=1
+        buildStatTable(f,[dict(tag="wght",name="Weight",ordering=0,values=[weight_value]),
+                          dict(tag="ital",name="Italic",ordering=1,values=[italic_value])],
+                       elidedFallbackName="Regular")
         f.save(target)
         f.flavor = "woff2"
         f.save(web_dir / f"{source.stem}.woff2")

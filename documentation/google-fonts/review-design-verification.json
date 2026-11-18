@@ -1,0 +1,258 @@
+{
+  "DINDOT-Bold": {
+    "zero_design": {
+      "zero.osf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tlf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tosf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "uni2152": {
+        "default_contours": 6,
+        "plain_zero_contours": 5,
+        "difference": "one intentional zero dot"
+      }
+    },
+    "caron_minimum_gaps_2048_units": {
+      "Lcaron": 149.0,
+      "dcaron": 24.0,
+      "lcaron": 144.0,
+      "tcaron": 73.0
+    },
+    "exact_repertoire": "pass",
+    "encoded_codepoints": 986
+  },
+  "DINDOT-BoldItalic": {
+    "zero_design": {
+      "zero.osf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tlf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tosf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "uni2152": {
+        "default_contours": 6,
+        "plain_zero_contours": 5,
+        "difference": "one intentional zero dot"
+      }
+    },
+    "caron_minimum_gaps_2048_units": {
+      "Lcaron": 135.4105760804996,
+      "dcaron": 27.305237242031385,
+      "lcaron": 130.63836709007933,
+      "tcaron": 63.06346010171025
+    },
+    "exact_repertoire": "pass",
+    "encoded_codepoints": 986
+  },
+  "DINDOT-Italic": {
+    "zero_design": {
+      "zero.osf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tlf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tosf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "uni2152": {
+        "default_contours": 6,
+        "plain_zero_contours": 5,
+        "difference": "one intentional zero dot"
+      }
+    },
+    "caron_minimum_gaps_2048_units": {
+      "Lcaron": 130.3280043427095,
+      "dcaron": 115.82958097478284,
+      "lcaron": 111.96333474333572,
+      "tcaron": 61.61920770192116
+    },
+    "exact_repertoire": "pass",
+    "encoded_codepoints": 986
+  },
+  "DINDOT-Medium": {
+    "zero_design": {
+      "zero.osf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tlf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tosf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "uni2152": {
+        "default_contours": 6,
+        "plain_zero_contours": 5,
+        "difference": "one intentional zero dot"
+      }
+    },
+    "caron_minimum_gaps_2048_units": {
+      "Lcaron": 139.0,
+      "dcaron": 71.0,
+      "lcaron": 126.0,
+      "tcaron": 87.3359375
+    },
+    "exact_repertoire": "pass",
+    "encoded_codepoints": 986
+  },
+  "DINDOT-MediumItalic": {
+    "zero_design": {
+      "zero.osf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tlf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tosf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "uni2152": {
+        "default_contours": 6,
+        "plain_zero_contours": 5,
+        "difference": "one intentional zero dot"
+      }
+    },
+    "caron_minimum_gaps_2048_units": {
+      "Lcaron": 127.32874826108745,
+      "dcaron": 62.78917335263628,
+      "lcaron": 115.87201986024482,
+      "tcaron": 82.66331205432093
+    },
+    "exact_repertoire": "pass",
+    "encoded_codepoints": 986
+  },
+  "DINDOT-Regular": {
+    "zero_design": {
+      "zero.osf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tlf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tosf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "uni2152": {
+        "default_contours": 6,
+        "plain_zero_contours": 5,
+        "difference": "one intentional zero dot"
+      }
+    },
+    "caron_minimum_gaps_2048_units": {
+      "Lcaron": 140.0,
+      "dcaron": 126.0,
+      "lcaron": 121.99999999999999,
+      "tcaron": 64.75
+    },
+    "exact_repertoire": "pass",
+    "encoded_codepoints": 986
+  },
+  "DINDOT-SemiBold": {
+    "zero_design": {
+      "zero.osf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tlf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tosf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "uni2152": {
+        "default_contours": 6,
+        "plain_zero_contours": 5,
+        "difference": "one intentional zero dot"
+      }
+    },
+    "caron_minimum_gaps_2048_units": {
+      "Lcaron": 143.0,
+      "dcaron": 25.0,
+      "lcaron": 135.0,
+      "tcaron": 95.0
+    },
+    "exact_repertoire": "pass",
+    "encoded_codepoints": 986
+  },
+  "DINDOT-SemiBoldItalic": {
+    "zero_design": {
+      "zero.osf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tlf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "zero.tosf": {
+        "default_contours": 3,
+        "plain_zero_contours": 2,
+        "difference": "one intentional zero dot"
+      },
+      "uni2152": {
+        "default_contours": 6,
+        "plain_zero_contours": 5,
+        "difference": "one intentional zero dot"
+      }
+    },
+    "caron_minimum_gaps_2048_units": {
+      "Lcaron": 131.46365058807172,
+      "dcaron": 24.93768730313273,
+      "lcaron": 123.75448350974266,
+      "tcaron": 85.67189745265966
+    },
+    "exact_repertoire": "pass",
+    "encoded_codepoints": 986
+  }
+}

@@ -24,3 +24,13 @@ jobs:
           --reference .cache/reference/DINDOT-v0.22.0
           --fonts .cache/build-one --repeat .cache/build-two
           --report .cache/regression-checks.json
+      - run: >-
+          python scripts/verify_review_designs.py --fonts .cache/build-one
+          --report .cache/review-design-verification.json
+      - run: python scripts/fetch_fontspector.py
+      - run: >-
+          python scripts/qa_googlefonts.py
+          --fontspector .cache/tools/fontspector
+          --font-dir .cache/build-one/ttf
+          --report-dir .cache/fontspector-report
+          --assert-known-findings

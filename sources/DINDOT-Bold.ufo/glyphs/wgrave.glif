@@ -66,8 +66,6 @@
       <point x="1093" y="441" type="qcurve"/>
       <point x="1089" y="438"/>
       <point x="1083" y="438" type="qcurve"/>
-      <point x="1083" y="438"/>
-      <point x="1083" y="438" type="qcurve"/>
       <point x="1075" y="438" type="line"/>
       <point x="1070" y="438"/>
       <point x="1065" y="441" type="qcurve"/>
@@ -93,8 +91,6 @@
       <point x="473" y="437"/>
       <point x="468" y="437" type="qcurve"/>
       <point x="460" y="437" type="line"/>
-      <point x="460" y="437"/>
-      <point x="460" y="437" type="qcurve"/>
       <point x="454" y="438"/>
       <point x="450" y="441" type="qcurve"/>
       <point x="445" y="444"/>

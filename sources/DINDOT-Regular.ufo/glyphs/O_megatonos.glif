@@ -7,7 +7,6 @@
   <anchor x="892" y="1414" name="top"/>
   <outline>
     <contour>
-      <point x="422" y="150" type="qcurve"/>
       <point x="421" y="150"/>
       <point x="419" y="150"/>
       <point x="418" y="150" type="qcurve"/>
@@ -147,7 +146,6 @@
       <point x="867" y="1264"/>
       <point x="874" y="1264"/>
       <point x="877" y="1264" type="qcurve"/>
-      <point x="877" y="1264" type="line"/>
       <point x="879" y="1264"/>
       <point x="880" y="1264" type="qcurve"/>
       <point x="885" y="1264"/>
@@ -397,9 +395,6 @@
       <point x="433" y="152" type="qcurve"/>
       <point x="428" y="150"/>
       <point x="422" y="150" type="qcurve"/>
-      <point x="422" y="150"/>
-      <point x="422" y="150" type="qcurve"/>
-      <point x="422" y="150"/>
     </contour>
     <contour>
       <point x="180" y="1304" type="qcurve"/>

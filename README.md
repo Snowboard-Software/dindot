@@ -33,8 +33,8 @@ the same rounded details.
 A rendered departure-board specimen, with all lettering set in DINDOT. Explore
 more [examples in use](https://www.getdot.ai/dindot/#data) on the specimen page.
 
-**Development status:** this branch contains an unreleased **1.000 Google Fonts
-candidate**, with editable UFO sources and 987 encoded characters per face.
+**Development status:** this branch contains an unreleased **1.001 Google Fonts
+candidate**, with editable UFO sources and 986 encoded characters per face.
 The existing v0.22.0 download and live specimen are unchanged. See the
 [engineering and QA record](documentation/google-fonts/README.md).
 
@@ -82,8 +82,9 @@ See [`sources/README.md`](sources/README.md) for migration provenance and editin
 instructions. The original v0.22.0 release, its sources and checksums remain
 available at its Git tag and release page.
 
-Regression checks compare all original glyph outlines and advances, required
-Latin Core glyphs, OpenType feature behavior and corrected mark sequences.
+Regression checks cover unchanged outlines and advances, the intentional
+caron/operator revisions, required Latin Core glyphs, OpenType behavior and
+corrected mark sequences.
 The workflow also performs two clean builds and compares every output byte.
 See [validation instructions and results](documentation/google-fonts/README.md).
 

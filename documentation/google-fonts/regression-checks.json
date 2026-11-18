@@ -1,106 +1,258 @@
 {
   "DINDOT-Bold": {
-    "original_glyphs_compared": 1221,
+    "original_glyphs_compared": 1209,
     "codepoints_before": 949,
-    "codepoints_after": 987,
-    "max_outline_distance_2048_units": 0.7071067811865476,
-    "worst_outline_glyph": "two.tosf",
+    "codepoints_after": 986,
+    "max_outline_distance_2048_units": 1.2537308368080897,
+    "worst_outline_glyph": "Shchacyr",
     "max_advance_delta_2048_units": 0.5,
     "shaping_cases": 126,
     "max_shaping_position_delta_8192_units": 4,
     "latin_core_glyphs": "pass",
     "ttf_woff2_tables": "pass",
-    "byte_identical_rebuild": true
+    "intentional_revisions_tested": [
+      "Lcaron",
+      "dcaron",
+      "lcaron",
+      "tcaron",
+      "uni221D"
+    ],
+    "non_exporting_glyphs_verified": [
+      "acutecomb.loclPLK",
+      "brevecmb.case",
+      "circumflexcmb.case",
+      "dieresistonoscomb",
+      "hookabovecomb.case",
+      "tonoscomb",
+      "uni00AD"
+    ],
+    "stat_style_linking": "pass",
+    "soft_hyphen_shaping": "pass",
+    "byte_identical_rebuild": true,
+    "repeatability_evidence": "build-repeatability.json"
   },
   "DINDOT-BoldItalic": {
-    "original_glyphs_compared": 1221,
+    "original_glyphs_compared": 1209,
     "codepoints_before": 949,
-    "codepoints_after": 987,
-    "max_outline_distance_2048_units": 0.7071067811865476,
-    "worst_outline_glyph": "less",
+    "codepoints_after": 986,
+    "max_outline_distance_2048_units": 1.8716319942735078,
+    "worst_outline_glyph": "uni03D5",
     "max_advance_delta_2048_units": 0.5,
     "shaping_cases": 126,
     "max_shaping_position_delta_8192_units": 4,
     "latin_core_glyphs": "pass",
     "ttf_woff2_tables": "pass",
-    "byte_identical_rebuild": true
+    "intentional_revisions_tested": [
+      "Lcaron",
+      "dcaron",
+      "lcaron",
+      "tcaron",
+      "uni221D"
+    ],
+    "non_exporting_glyphs_verified": [
+      "acutecomb.loclPLK",
+      "brevecmb.case",
+      "circumflexcmb.case",
+      "dieresistonoscomb",
+      "hookabovecomb.case",
+      "tonoscomb",
+      "uni00AD"
+    ],
+    "stat_style_linking": "pass",
+    "soft_hyphen_shaping": "pass",
+    "byte_identical_rebuild": true,
+    "repeatability_evidence": "build-repeatability.json"
   },
   "DINDOT-Italic": {
-    "original_glyphs_compared": 1221,
+    "original_glyphs_compared": 1209,
     "codepoints_before": 949,
-    "codepoints_after": 987,
-    "max_outline_distance_2048_units": 0.7071067811865476,
-    "worst_outline_glyph": "exclam",
+    "codepoints_after": 986,
+    "max_outline_distance_2048_units": 1.1862151530542426,
+    "worst_outline_glyph": "uni0394",
     "max_advance_delta_2048_units": 0.5,
     "shaping_cases": 126,
     "max_shaping_position_delta_8192_units": 4,
     "latin_core_glyphs": "pass",
     "ttf_woff2_tables": "pass",
-    "byte_identical_rebuild": true
+    "intentional_revisions_tested": [
+      "Lcaron",
+      "dcaron",
+      "lcaron",
+      "tcaron",
+      "uni221D"
+    ],
+    "non_exporting_glyphs_verified": [
+      "acutecomb.loclPLK",
+      "brevecmb.case",
+      "circumflexcmb.case",
+      "dieresistonoscomb",
+      "hookabovecomb.case",
+      "tonoscomb",
+      "uni00AD"
+    ],
+    "stat_style_linking": "pass",
+    "soft_hyphen_shaping": "pass",
+    "byte_identical_rebuild": true,
+    "repeatability_evidence": "build-repeatability.json"
   },
   "DINDOT-Medium": {
-    "original_glyphs_compared": 1221,
+    "original_glyphs_compared": 1209,
     "codepoints_before": 949,
-    "codepoints_after": 987,
-    "max_outline_distance_2048_units": 0.7071067811865476,
-    "worst_outline_glyph": "zero.dnom",
+    "codepoints_after": 986,
+    "max_outline_distance_2048_units": 1.25,
+    "worst_outline_glyph": "OE",
     "max_advance_delta_2048_units": 0.5,
     "shaping_cases": 126,
     "max_shaping_position_delta_8192_units": 4,
     "latin_core_glyphs": "pass",
     "ttf_woff2_tables": "pass",
-    "byte_identical_rebuild": true
+    "intentional_revisions_tested": [
+      "Lcaron",
+      "dcaron",
+      "lcaron",
+      "tcaron",
+      "uni221D"
+    ],
+    "non_exporting_glyphs_verified": [
+      "acutecomb.loclPLK",
+      "brevecmb.case",
+      "circumflexcmb.case",
+      "dieresistonoscomb",
+      "hookabovecomb.case",
+      "tonoscomb",
+      "uni00AD"
+    ],
+    "stat_style_linking": "pass",
+    "soft_hyphen_shaping": "pass",
+    "byte_identical_rebuild": true,
+    "repeatability_evidence": "build-repeatability.json"
   },
   "DINDOT-MediumItalic": {
-    "original_glyphs_compared": 1221,
+    "original_glyphs_compared": 1209,
     "codepoints_before": 949,
-    "codepoints_after": 987,
-    "max_outline_distance_2048_units": 0.7071067811865476,
-    "worst_outline_glyph": "one.tosf",
+    "codepoints_after": 986,
+    "max_outline_distance_2048_units": 1.1967974641254084,
+    "worst_outline_glyph": "uni03C3",
     "max_advance_delta_2048_units": 0.5,
     "shaping_cases": 126,
     "max_shaping_position_delta_8192_units": 4,
     "latin_core_glyphs": "pass",
     "ttf_woff2_tables": "pass",
-    "byte_identical_rebuild": true
+    "intentional_revisions_tested": [
+      "Lcaron",
+      "dcaron",
+      "lcaron",
+      "tcaron",
+      "uni221D"
+    ],
+    "non_exporting_glyphs_verified": [
+      "acutecomb.loclPLK",
+      "brevecmb.case",
+      "circumflexcmb.case",
+      "dieresistonoscomb",
+      "hookabovecomb.case",
+      "tonoscomb",
+      "uni00AD"
+    ],
+    "stat_style_linking": "pass",
+    "soft_hyphen_shaping": "pass",
+    "byte_identical_rebuild": true,
+    "repeatability_evidence": "build-repeatability.json"
   },
   "DINDOT-Regular": {
-    "original_glyphs_compared": 1221,
+    "original_glyphs_compared": 1209,
     "codepoints_before": 949,
-    "codepoints_after": 987,
-    "max_outline_distance_2048_units": 0.7071067811865476,
-    "worst_outline_glyph": "exclam",
+    "codepoints_after": 986,
+    "max_outline_distance_2048_units": 1.25,
+    "worst_outline_glyph": "a.ss02",
     "max_advance_delta_2048_units": 0.5,
     "shaping_cases": 126,
     "max_shaping_position_delta_8192_units": 4,
     "latin_core_glyphs": "pass",
     "ttf_woff2_tables": "pass",
-    "byte_identical_rebuild": true
+    "intentional_revisions_tested": [
+      "Lcaron",
+      "dcaron",
+      "lcaron",
+      "tcaron",
+      "uni221D"
+    ],
+    "non_exporting_glyphs_verified": [
+      "acutecomb.loclPLK",
+      "brevecmb.case",
+      "circumflexcmb.case",
+      "dieresistonoscomb",
+      "hookabovecomb.case",
+      "tonoscomb",
+      "uni00AD"
+    ],
+    "stat_style_linking": "pass",
+    "soft_hyphen_shaping": "pass",
+    "byte_identical_rebuild": true,
+    "repeatability_evidence": "build-repeatability.json"
   },
   "DINDOT-SemiBold": {
-    "original_glyphs_compared": 1221,
+    "original_glyphs_compared": 1209,
     "codepoints_before": 949,
-    "codepoints_after": 987,
-    "max_outline_distance_2048_units": 0.7071067811865476,
-    "worst_outline_glyph": "dollar",
+    "codepoints_after": 986,
+    "max_outline_distance_2048_units": 1.499464977510616,
+    "worst_outline_glyph": "a.ss02",
     "max_advance_delta_2048_units": 0.5,
     "shaping_cases": 126,
     "max_shaping_position_delta_8192_units": 4,
     "latin_core_glyphs": "pass",
     "ttf_woff2_tables": "pass",
-    "byte_identical_rebuild": true
+    "intentional_revisions_tested": [
+      "Lcaron",
+      "dcaron",
+      "lcaron",
+      "tcaron",
+      "uni221D"
+    ],
+    "non_exporting_glyphs_verified": [
+      "acutecomb.loclPLK",
+      "brevecmb.case",
+      "circumflexcmb.case",
+      "dieresistonoscomb",
+      "hookabovecomb.case",
+      "tonoscomb",
+      "uni00AD"
+    ],
+    "stat_style_linking": "pass",
+    "soft_hyphen_shaping": "pass",
+    "byte_identical_rebuild": true,
+    "repeatability_evidence": "build-repeatability.json"
   },
   "DINDOT-SemiBoldItalic": {
-    "original_glyphs_compared": 1221,
+    "original_glyphs_compared": 1209,
     "codepoints_before": 949,
-    "codepoints_after": 987,
-    "max_outline_distance_2048_units": 0.7071067811865476,
-    "worst_outline_glyph": "s",
+    "codepoints_after": 986,
+    "max_outline_distance_2048_units": 1.2391724009278478,
+    "worst_outline_glyph": "uni03C6",
     "max_advance_delta_2048_units": 0.5,
     "shaping_cases": 126,
     "max_shaping_position_delta_8192_units": 4,
     "latin_core_glyphs": "pass",
     "ttf_woff2_tables": "pass",
-    "byte_identical_rebuild": true
+    "intentional_revisions_tested": [
+      "Lcaron",
+      "dcaron",
+      "lcaron",
+      "tcaron",
+      "uni221D"
+    ],
+    "non_exporting_glyphs_verified": [
+      "acutecomb.loclPLK",
+      "brevecmb.case",
+      "circumflexcmb.case",
+      "dieresistonoscomb",
+      "hookabovecomb.case",
+      "tonoscomb",
+      "uni00AD"
+    ],
+    "stat_style_linking": "pass",
+    "soft_hyphen_shaping": "pass",
+    "byte_identical_rebuild": true,
+    "repeatability_evidence": "build-repeatability.json"
   }
 }

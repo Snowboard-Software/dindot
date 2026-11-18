@@ -2,67 +2,13 @@
 <glyph name="Lcaron" format="2">
   <advance width="1079"/>
   <unicode hex="013D"/>
+  <note>
+Base plus distinct alternate caron; preserve a visible gap at every weight.
+</note>
   <anchor x="480" y="-172" name="bottom"/>
   <anchor x="480" y="1546" name="top"/>
   <outline>
-    <contour>
-      <point x="-2" y="83" type="line"/>
-      <point x="-6" y="67"/>
-      <point x="0" y="38"/>
-      <point x="18" y="14"/>
-      <point x="45" y="0"/>
-      <point x="61" y="0" type="qcurve"/>
-      <point x="843" y="0" type="line"/>
-      <point x="857" y="0"/>
-      <point x="883" y="12"/>
-      <point x="902" y="34"/>
-      <point x="906" y="48" type="qcurve"/>
-      <point x="934" y="153" type="line"/>
-      <point x="938" y="168"/>
-      <point x="931" y="198"/>
-      <point x="913" y="221"/>
-      <point x="887" y="235"/>
-      <point x="871" y="235" type="qcurve"/>
-      <point x="365" y="235" type="line"/>
-      <point x="357" y="235"/>
-      <point x="342" y="242"/>
-      <point x="332" y="255"/>
-      <point x="329" y="271"/>
-      <point x="331" y="279" type="qcurve"/>
-      <point x="613" y="1332" type="line"/>
-      <point x="617" y="1347"/>
-      <point x="611" y="1377"/>
-      <point x="593" y="1400"/>
-      <point x="566" y="1414"/>
-      <point x="550" y="1414" type="qcurve"/>
-      <point x="405" y="1414" type="line"/>
-      <point x="390" y="1414"/>
-      <point x="364" y="1402"/>
-      <point x="345" y="1380"/>
-      <point x="341" y="1366" type="qcurve"/>
-    </contour>
-    <contour>
-      <point x="825" y="1414" type="line"/>
-      <point x="810" y="1414"/>
-      <point x="785" y="1402"/>
-      <point x="767" y="1381"/>
-      <point x="763" y="1367" type="qcurve"/>
-      <point x="679" y="1055" type="line"/>
-      <point x="676" y="1044"/>
-      <point x="681" y="1024"/>
-      <point x="695" y="1009"/>
-      <point x="713" y="1001"/>
-      <point x="733" y="1003"/>
-      <point x="743" y="1009" type="qcurve"/>
-      <point x="882" y="1101" type="line"/>
-      <point x="902" y="1115"/>
-      <point x="909" y="1140" type="qcurve"/>
-      <point x="961" y="1333" type="line"/>
-      <point x="965" y="1349"/>
-      <point x="959" y="1378"/>
-      <point x="941" y="1401"/>
-      <point x="915" y="1414"/>
-      <point x="899" y="1414" type="qcurve"/>
-    </contour>
+    <component base="L"/>
+    <component base="caroncmb.alt" xOffset="642"/>
   </outline>
 </glyph>

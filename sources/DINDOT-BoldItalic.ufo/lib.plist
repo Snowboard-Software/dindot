@@ -914,7 +914,6 @@
       <string>uni2027</string>
       <string>uni201B</string>
       <string>uni201F</string>
-      <string>uni00AD</string>
       <string>uni2025</string>
       <string>uni2034</string>
       <string>uni2035</string>
@@ -1295,5 +1294,14 @@
     </dict>
     <key>public.openTypePostUnderlinePosition</key>
     <integer>-306</integer>
+    <key>public.skipExportGlyphs</key>
+    <array>
+      <string>acutecomb.loclPLK</string>
+      <string>tonoscomb</string>
+      <string>dieresistonoscomb</string>
+      <string>circumflexcmb.case</string>
+      <string>brevecmb.case</string>
+      <string>hookabovecomb.case</string>
+    </array>
   </dict>
 </plist>

@@ -1,0 +1,396 @@
+{
+  "status": "Optional orthography coverage; no mandatory-language shaping failures",
+  "missing_optional_codepoints": [
+    {
+      "codepoint": "U+013F",
+      "character": "Ŀ",
+      "name": "LATIN CAPITAL LETTER L WITH MIDDLE DOT"
+    },
+    {
+      "codepoint": "U+0140",
+      "character": "ŀ",
+      "name": "LATIN SMALL LETTER L WITH MIDDLE DOT"
+    },
+    {
+      "codepoint": "U+017F",
+      "character": "ſ",
+      "name": "LATIN SMALL LETTER LONG S"
+    },
+    {
+      "codepoint": "U+01B7",
+      "character": "Ʒ",
+      "name": "LATIN CAPITAL LETTER EZH"
+    },
+    {
+      "codepoint": "U+01E4",
+      "character": "Ǥ",
+      "name": "LATIN CAPITAL LETTER G WITH STROKE"
+    },
+    {
+      "codepoint": "U+01E5",
+      "character": "ǥ",
+      "name": "LATIN SMALL LETTER G WITH STROKE"
+    },
+    {
+      "codepoint": "U+01EE",
+      "character": "Ǯ",
+      "name": "LATIN CAPITAL LETTER EZH WITH CARON"
+    },
+    {
+      "codepoint": "U+01EF",
+      "character": "ǯ",
+      "name": "LATIN SMALL LETTER EZH WITH CARON"
+    },
+    {
+      "codepoint": "U+021E",
+      "character": "Ȟ",
+      "name": "LATIN CAPITAL LETTER H WITH CARON"
+    },
+    {
+      "codepoint": "U+021F",
+      "character": "ȟ",
+      "name": "LATIN SMALL LETTER H WITH CARON"
+    },
+    {
+      "codepoint": "U+0292",
+      "character": "ʒ",
+      "name": "LATIN SMALL LETTER EZH"
+    },
+    {
+      "codepoint": "U+02BB",
+      "character": "ʻ",
+      "name": "MODIFIER LETTER TURNED COMMA"
+    },
+    {
+      "codepoint": "U+0463",
+      "character": "ѣ",
+      "name": "CYRILLIC SMALL LETTER YAT"
+    },
+    {
+      "codepoint": "U+046B",
+      "character": "ѫ",
+      "name": "CYRILLIC SMALL LETTER BIG YUS"
+    },
+    {
+      "codepoint": "U+04CA",
+      "character": "ӊ",
+      "name": "CYRILLIC SMALL LETTER EN WITH TAIL"
+    },
+    {
+      "codepoint": "U+1F00",
+      "character": "ἀ",
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI"
+    },
+    {
+      "codepoint": "U+1F01",
+      "character": "ἁ",
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA"
+    },
+    {
+      "codepoint": "U+1F02",
+      "character": "ἂ",
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND VARIA"
+    },
+    {
+      "codepoint": "U+1F03",
+      "character": "ἃ",
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND VARIA"
+    },
+    {
+      "codepoint": "U+1F04",
+      "character": "ἄ",
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND OXIA"
+    },
+    {
+      "codepoint": "U+1F05",
+      "character": "ἅ",
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND OXIA"
+    },
+    {
+      "codepoint": "U+1F06",
+      "character": "ἆ",
+      "name": "GREEK SMALL LETTER ALPHA WITH PSILI AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1F07",
+      "character": "ἇ",
+      "name": "GREEK SMALL LETTER ALPHA WITH DASIA AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1F10",
+      "character": "ἐ",
+      "name": "GREEK SMALL LETTER EPSILON WITH PSILI"
+    },
+    {
+      "codepoint": "U+1F11",
+      "character": "ἑ",
+      "name": "GREEK SMALL LETTER EPSILON WITH DASIA"
+    },
+    {
+      "codepoint": "U+1F12",
+      "character": "ἒ",
+      "name": "GREEK SMALL LETTER EPSILON WITH PSILI AND VARIA"
+    },
+    {
+      "codepoint": "U+1F13",
+      "character": "ἓ",
+      "name": "GREEK SMALL LETTER EPSILON WITH DASIA AND VARIA"
+    },
+    {
+      "codepoint": "U+1F14",
+      "character": "ἔ",
+      "name": "GREEK SMALL LETTER EPSILON WITH PSILI AND OXIA"
+    },
+    {
+      "codepoint": "U+1F15",
+      "character": "ἕ",
+      "name": "GREEK SMALL LETTER EPSILON WITH DASIA AND OXIA"
+    },
+    {
+      "codepoint": "U+1F20",
+      "character": "ἠ",
+      "name": "GREEK SMALL LETTER ETA WITH PSILI"
+    },
+    {
+      "codepoint": "U+1F21",
+      "character": "ἡ",
+      "name": "GREEK SMALL LETTER ETA WITH DASIA"
+    },
+    {
+      "codepoint": "U+1F22",
+      "character": "ἢ",
+      "name": "GREEK SMALL LETTER ETA WITH PSILI AND VARIA"
+    },
+    {
+      "codepoint": "U+1F23",
+      "character": "ἣ",
+      "name": "GREEK SMALL LETTER ETA WITH DASIA AND VARIA"
+    },
+    {
+      "codepoint": "U+1F24",
+      "character": "ἤ",
+      "name": "GREEK SMALL LETTER ETA WITH PSILI AND OXIA"
+    },
+    {
+      "codepoint": "U+1F25",
+      "character": "ἥ",
+      "name": "GREEK SMALL LETTER ETA WITH DASIA AND OXIA"
+    },
+    {
+      "codepoint": "U+1F26",
+      "character": "ἦ",
+      "name": "GREEK SMALL LETTER ETA WITH PSILI AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1F27",
+      "character": "ἧ",
+      "name": "GREEK SMALL LETTER ETA WITH DASIA AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1F30",
+      "character": "ἰ",
+      "name": "GREEK SMALL LETTER IOTA WITH PSILI"
+    },
+    {
+      "codepoint": "U+1F31",
+      "character": "ἱ",
+      "name": "GREEK SMALL LETTER IOTA WITH DASIA"
+    },
+    {
+      "codepoint": "U+1F32",
+      "character": "ἲ",
+      "name": "GREEK SMALL LETTER IOTA WITH PSILI AND VARIA"
+    },
+    {
+      "codepoint": "U+1F33",
+      "character": "ἳ",
+      "name": "GREEK SMALL LETTER IOTA WITH DASIA AND VARIA"
+    },
+    {
+      "codepoint": "U+1F34",
+      "character": "ἴ",
+      "name": "GREEK SMALL LETTER IOTA WITH PSILI AND OXIA"
+    },
+    {
+      "codepoint": "U+1F35",
+      "character": "ἵ",
+      "name": "GREEK SMALL LETTER IOTA WITH DASIA AND OXIA"
+    },
+    {
+      "codepoint": "U+1F36",
+      "character": "ἶ",
+      "name": "GREEK SMALL LETTER IOTA WITH PSILI AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1F37",
+      "character": "ἷ",
+      "name": "GREEK SMALL LETTER IOTA WITH DASIA AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1F42",
+      "character": "ὂ",
+      "name": "GREEK SMALL LETTER OMICRON WITH PSILI AND VARIA"
+    },
+    {
+      "codepoint": "U+1F43",
+      "character": "ὃ",
+      "name": "GREEK SMALL LETTER OMICRON WITH DASIA AND VARIA"
+    },
+    {
+      "codepoint": "U+1F44",
+      "character": "ὄ",
+      "name": "GREEK SMALL LETTER OMICRON WITH PSILI AND OXIA"
+    },
+    {
+      "codepoint": "U+1F50",
+      "character": "ὐ",
+      "name": "GREEK SMALL LETTER UPSILON WITH PSILI"
+    },
+    {
+      "codepoint": "U+1F51",
+      "character": "ὑ",
+      "name": "GREEK SMALL LETTER UPSILON WITH DASIA"
+    },
+    {
+      "codepoint": "U+1F52",
+      "character": "ὒ",
+      "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND VARIA"
+    },
+    {
+      "codepoint": "U+1F53",
+      "character": "ὓ",
+      "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND VARIA"
+    },
+    {
+      "codepoint": "U+1F54",
+      "character": "ὔ",
+      "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND OXIA"
+    },
+    {
+      "codepoint": "U+1F55",
+      "character": "ὕ",
+      "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND OXIA"
+    },
+    {
+      "codepoint": "U+1F56",
+      "character": "ὖ",
+      "name": "GREEK SMALL LETTER UPSILON WITH PSILI AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1F57",
+      "character": "ὗ",
+      "name": "GREEK SMALL LETTER UPSILON WITH DASIA AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1F62",
+      "character": "ὢ",
+      "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND VARIA"
+    },
+    {
+      "codepoint": "U+1F63",
+      "character": "ὣ",
+      "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND VARIA"
+    },
+    {
+      "codepoint": "U+1F64",
+      "character": "ὤ",
+      "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND OXIA"
+    },
+    {
+      "codepoint": "U+1F65",
+      "character": "ὥ",
+      "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND OXIA"
+    },
+    {
+      "codepoint": "U+1F66",
+      "character": "ὦ",
+      "name": "GREEK SMALL LETTER OMEGA WITH PSILI AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1F67",
+      "character": "ὧ",
+      "name": "GREEK SMALL LETTER OMEGA WITH DASIA AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1F70",
+      "character": "ὰ",
+      "name": "GREEK SMALL LETTER ALPHA WITH VARIA"
+    },
+    {
+      "codepoint": "U+1F72",
+      "character": "ὲ",
+      "name": "GREEK SMALL LETTER EPSILON WITH VARIA"
+    },
+    {
+      "codepoint": "U+1F74",
+      "character": "ὴ",
+      "name": "GREEK SMALL LETTER ETA WITH VARIA"
+    },
+    {
+      "codepoint": "U+1F76",
+      "character": "ὶ",
+      "name": "GREEK SMALL LETTER IOTA WITH VARIA"
+    },
+    {
+      "codepoint": "U+1F78",
+      "character": "ὸ",
+      "name": "GREEK SMALL LETTER OMICRON WITH VARIA"
+    },
+    {
+      "codepoint": "U+1F7A",
+      "character": "ὺ",
+      "name": "GREEK SMALL LETTER UPSILON WITH VARIA"
+    },
+    {
+      "codepoint": "U+1F7C",
+      "character": "ὼ",
+      "name": "GREEK SMALL LETTER OMEGA WITH VARIA"
+    },
+    {
+      "codepoint": "U+1FB6",
+      "character": "ᾶ",
+      "name": "GREEK SMALL LETTER ALPHA WITH PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1FC6",
+      "character": "ῆ",
+      "name": "GREEK SMALL LETTER ETA WITH PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1FD2",
+      "character": "ῒ",
+      "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND VARIA"
+    },
+    {
+      "codepoint": "U+1FD6",
+      "character": "ῖ",
+      "name": "GREEK SMALL LETTER IOTA WITH PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1FD7",
+      "character": "ῗ",
+      "name": "GREEK SMALL LETTER IOTA WITH DIALYTIKA AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1FE2",
+      "character": "ῢ",
+      "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND VARIA"
+    },
+    {
+      "codepoint": "U+1FE6",
+      "character": "ῦ",
+      "name": "GREEK SMALL LETTER UPSILON WITH PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1FE7",
+      "character": "ῧ",
+      "name": "GREEK SMALL LETTER UPSILON WITH DIALYTIKA AND PERISPOMENI"
+    },
+    {
+      "codepoint": "U+1FF6",
+      "character": "ῶ",
+      "name": "GREEK SMALL LETTER OMEGA WITH PERISPOMENI"
+    }
+  ],
+  "same_in_all_eight_styles": true
+}

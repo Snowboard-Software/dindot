@@ -276,12 +276,9 @@
       <point x="724" y="823"/>
       <point x="722" y="823"/>
       <point x="721" y="824" type="qcurve"/>
-      <point x="721" y="824"/>
-      <point x="721" y="824" type="qcurve"/>
       <point x="718" y="825"/>
       <point x="714" y="826"/>
       <point x="713" y="827" type="qcurve"/>
-      <point x="702" y="830" type="line"/>
       <point x="691" y="833" type="line"/>
       <point x="653" y="844"/>
       <point x="613" y="848" type="qcurve"/>
